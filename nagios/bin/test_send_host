@@ -1,0 +1,1 @@
+echo "nsca-server;0;testOK" | /root/nsca-2.9.2/src/send_nsca -H 13.114.250.119 -d ";" -c /usr/local/nagios/etc/send_nsca.cfg

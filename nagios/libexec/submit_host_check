@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+CMD=/usr/local/nagios/bin/send_nsca
+CFG=/usr/local/nagios/etc/send_nsca.cfg
+
+HOST=$1
+RESULT=$2
+OUTPUT="$3"
+PERF="$4"
+
+printf "%b" "${HOST}\t${RESULT}\t${OUTPUT}|${PERF}\n" | $CMD -H uat-bastion -c $CFG

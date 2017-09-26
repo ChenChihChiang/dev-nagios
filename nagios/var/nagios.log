@@ -245,3 +245,2190 @@
 [1506414507] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
 [1506414507] wproc:   stderr line 01: /bin/sh: /bin/mail: No such file or directory
 [1506414507] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506415170] Caught SIGTERM, shutting down...
+[1506415170] Successfully shutdown... (PID=15711)
+[1506415170] Event broker module 'NERD' deinitialized successfully.
+[1506416090] Nagios 4.3.4 starting... (PID=16974)
+[1506416090] Local time is Tue Sep 26 16:54:50 CST 2017
+[1506416090] LOG VERSION: 2.0
+[1506416090] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506416090] qh: core query handler registered
+[1506416090] nerd: Channel hostchecks registered successfully
+[1506416090] nerd: Channel servicechecks registered successfully
+[1506416090] nerd: Channel opathchecks registered successfully
+[1506416090] nerd: Fully initialized and ready to rock!
+[1506416090] wproc: Successfully registered manager as @wproc with query handler
+[1506416090] wproc: Registry request: name=Core Worker 16979;pid=16979
+[1506416090] wproc: Registry request: name=Core Worker 16976;pid=16976
+[1506416090] wproc: Registry request: name=Core Worker 16977;pid=16977
+[1506416090] wproc: Registry request: name=Core Worker 16978;pid=16978
+[1506416090] Successfully launched command file worker with pid 16980
+[1506416202] SERVICE ALERT: dev-bastion;HTTP;WARNING;SOFT;1;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time
+[1506416210] SERVICE ALERT: dev-database;HTTP;CRITICAL;SOFT;1;connect to address 10.1.101.10 and port 80: Connection refused
+[1506416225] SERVICE ALERT: dev-services;HTTP;CRITICAL;SOFT;1;connect to address 10.1.100.10 and port 80: Connection refused
+[1506416262] SERVICE ALERT: dev-bastion;HTTP;WARNING;SOFT;2;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time
+[1506416270] SERVICE ALERT: dev-database;HTTP;CRITICAL;SOFT;2;connect to address 10.1.101.10 and port 80: Connection refused
+[1506416285] SERVICE ALERT: dev-services;HTTP;CRITICAL;SOFT;2;connect to address 10.1.100.10 and port 80: Connection refused
+[1506416315] SERVICE ALERT: dev-bastion;SSH;CRITICAL;SOFT;1;connect to address 10.1.0.10 and port 22: Connection refused
+[1506416322] SERVICE ALERT: dev-bastion;HTTP;WARNING;SOFT;3;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.000 second response time
+[1506416330] SERVICE ALERT: dev-database;HTTP;CRITICAL;SOFT;3;connect to address 10.1.101.10 and port 80: Connection refused
+[1506416345] SERVICE ALERT: dev-services;HTTP;CRITICAL;SOFT;3;connect to address 10.1.100.10 and port 80: Connection refused
+[1506416352] SERVICE ALERT: dev-bastion;Swap Usage;CRITICAL;SOFT;1;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506416360] SERVICE ALERT: dev-database;Swap Usage;CRITICAL;SOFT;1;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506416375] SERVICE ALERT: dev-services;Swap Usage;CRITICAL;SOFT;1;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506416375] SERVICE ALERT: dev-bastion;SSH;CRITICAL;SOFT;2;connect to address 10.1.0.10 and port 22: Connection refused
+[1506416382] SERVICE ALERT: dev-bastion;HTTP;WARNING;HARD;4;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.000 second response time
+[1506416390] SERVICE ALERT: dev-database;HTTP;CRITICAL;HARD;4;connect to address 10.1.101.10 and port 80: Connection refused
+[1506416405] SERVICE ALERT: dev-services;HTTP;CRITICAL;HARD;4;connect to address 10.1.100.10 and port 80: Connection refused
+[1506416412] SERVICE ALERT: dev-bastion;Swap Usage;CRITICAL;SOFT;2;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506416420] SERVICE ALERT: dev-database;Swap Usage;CRITICAL;SOFT;2;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506416435] SERVICE ALERT: dev-services;Swap Usage;CRITICAL;SOFT;2;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506416435] SERVICE ALERT: dev-bastion;SSH;CRITICAL;SOFT;3;connect to address 10.1.0.10 and port 22: Connection refused
+[1506416472] SERVICE ALERT: dev-bastion;Swap Usage;CRITICAL;SOFT;3;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506416480] SERVICE ALERT: dev-database;Swap Usage;CRITICAL;SOFT;3;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506416495] SERVICE ALERT: dev-services;Swap Usage;CRITICAL;SOFT;3;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506416495] SERVICE ALERT: dev-bastion;SSH;CRITICAL;HARD;4;connect to address 10.1.0.10 and port 22: Connection refused
+[1506416532] SERVICE ALERT: dev-bastion;Swap Usage;CRITICAL;HARD;4;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506416532] SERVICE NOTIFICATION: nagiosadmin;dev-bastion;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506416532] wproc: NOTIFY job 21 from worker Core Worker 16977 is a non-check helper but exited with return code 127
+[1506416532] wproc:   host=dev-bastion; service=Swap Usage; contact=nagiosadmin
+[1506416532] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506416532] wproc:   stderr line 01: /bin/sh: /bin/mail: No such file or directory
+[1506416532] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506416540] SERVICE ALERT: dev-database;Swap Usage;CRITICAL;HARD;4;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506416540] SERVICE NOTIFICATION: nagiosadmin;dev-database;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506416540] wproc: NOTIFY job 22 from worker Core Worker 16976 is a non-check helper but exited with return code 127
+[1506416540] wproc:   host=dev-database; service=Swap Usage; contact=nagiosadmin
+[1506416540] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506416540] wproc:   stderr line 01: /bin/sh: /bin/mail: No such file or directory
+[1506416540] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506416555] SERVICE ALERT: dev-services;Swap Usage;CRITICAL;HARD;4;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506416555] SERVICE NOTIFICATION: nagiosadmin;dev-services;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506416555] wproc: NOTIFY job 23 from worker Core Worker 16979 is a non-check helper but exited with return code 127
+[1506416555] wproc:   host=dev-services; service=Swap Usage; contact=nagiosadmin
+[1506416555] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506416555] wproc:   stderr line 01: /bin/sh: /bin/mail: No such file or directory
+[1506416555] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506416719] Caught SIGTERM, shutting down...
+[1506416719] Successfully shutdown... (PID=16974)
+[1506416719] Event broker module 'NERD' deinitialized successfully.
+[1506416720] Nagios 4.3.4 starting... (PID=17602)
+[1506416720] Local time is Tue Sep 26 17:05:20 CST 2017
+[1506416720] LOG VERSION: 2.0
+[1506416720] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506416720] qh: core query handler registered
+[1506416720] nerd: Channel hostchecks registered successfully
+[1506416720] nerd: Channel servicechecks registered successfully
+[1506416720] nerd: Channel opathchecks registered successfully
+[1506416720] nerd: Fully initialized and ready to rock!
+[1506416720] wproc: Successfully registered manager as @wproc with query handler
+[1506416720] wproc: Registry request: name=Core Worker 17607;pid=17607
+[1506416720] wproc: Registry request: name=Core Worker 17604;pid=17604
+[1506416720] wproc: Registry request: name=Core Worker 17605;pid=17605
+[1506416720] wproc: Registry request: name=Core Worker 17606;pid=17606
+[1506416720] Successfully launched command file worker with pid 17608
+[1506418182] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506418182] wproc: NOTIFY job 49 from worker Core Worker 17605 is a non-check helper but exited with return code 127
+[1506418182] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1506418182] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506418182] wproc:   stderr line 01: /bin/sh: /bin/mail: No such file or directory
+[1506418643] Caught SIGTERM, shutting down...
+[1506418643] Successfully shutdown... (PID=17602)
+[1506418643] Event broker module 'NERD' deinitialized successfully.
+[1506418644] Nagios 4.3.4 starting... (PID=19182)
+[1506418644] Local time is Tue Sep 26 17:37:24 CST 2017
+[1506418644] LOG VERSION: 2.0
+[1506418644] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506418644] qh: core query handler registered
+[1506418644] nerd: Channel hostchecks registered successfully
+[1506418644] nerd: Channel servicechecks registered successfully
+[1506418644] nerd: Channel opathchecks registered successfully
+[1506418644] nerd: Fully initialized and ready to rock!
+[1506418644] wproc: Successfully registered manager as @wproc with query handler
+[1506418644] wproc: Registry request: name=Core Worker 19184;pid=19184
+[1506418644] wproc: Registry request: name=Core Worker 19185;pid=19185
+[1506418644] wproc: Registry request: name=Core Worker 19186;pid=19186
+[1506418644] wproc: Registry request: name=Core Worker 19187;pid=19187
+[1506418645] Successfully launched command file worker with pid 19188
+[1506419399] Caught SIGTERM, shutting down...
+[1506419399] Successfully shutdown... (PID=19182)
+[1506419399] Event broker module 'NERD' deinitialized successfully.
+[1506419400] Nagios 4.3.4 starting... (PID=19845)
+[1506419400] Local time is Tue Sep 26 17:50:00 CST 2017
+[1506419400] LOG VERSION: 2.0
+[1506419400] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506419400] qh: core query handler registered
+[1506419400] nerd: Channel hostchecks registered successfully
+[1506419400] nerd: Channel servicechecks registered successfully
+[1506419400] nerd: Channel opathchecks registered successfully
+[1506419400] nerd: Fully initialized and ready to rock!
+[1506419400] wproc: Successfully registered manager as @wproc with query handler
+[1506419400] wproc: Registry request: name=Core Worker 19847;pid=19847
+[1506419400] wproc: Registry request: name=Core Worker 19848;pid=19848
+[1506419400] wproc: Registry request: name=Core Worker 19849;pid=19849
+[1506419400] wproc: Registry request: name=Core Worker 19850;pid=19850
+[1506419400] Successfully launched command file worker with pid 19851
+[1506421571] Caught SIGTERM, shutting down...
+[1506421571] Successfully shutdown... (PID=19845)
+[1506421571] Event broker module 'NERD' deinitialized successfully.
+[1506421572] Nagios 4.3.4 starting... (PID=21809)
+[1506421572] Local time is Tue Sep 26 18:26:12 CST 2017
+[1506421572] LOG VERSION: 2.0
+[1506421572] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506421572] qh: core query handler registered
+[1506421572] nerd: Channel hostchecks registered successfully
+[1506421572] nerd: Channel servicechecks registered successfully
+[1506421572] nerd: Channel opathchecks registered successfully
+[1506421572] nerd: Fully initialized and ready to rock!
+[1506421572] wproc: Successfully registered manager as @wproc with query handler
+[1506421572] wproc: Registry request: name=Core Worker 21814;pid=21814
+[1506421572] wproc: Registry request: name=Core Worker 21811;pid=21811
+[1506421572] wproc: Registry request: name=Core Worker 21812;pid=21812
+[1506421572] wproc: Registry request: name=Core Worker 21813;pid=21813
+[1506421572] Successfully launched command file worker with pid 21815
+[1506421782] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506421782] wproc: NOTIFY job 6 from worker Core Worker 21813 is a non-check helper but exited with return code 127
+[1506421782] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1506421782] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506421782] wproc:   stderr line 01: /bin/sh: /bin/mail: No such file or directory
+[1506421782] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506422527] Caught SIGTERM, shutting down...
+[1506422527] Successfully shutdown... (PID=21809)
+[1506422527] Event broker module 'NERD' deinitialized successfully.
+[1506422529] Nagios 4.3.4 starting... (PID=22623)
+[1506422529] Local time is Tue Sep 26 18:42:09 CST 2017
+[1506422529] LOG VERSION: 2.0
+[1506422529] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506422529] qh: core query handler registered
+[1506422529] nerd: Channel hostchecks registered successfully
+[1506422529] nerd: Channel servicechecks registered successfully
+[1506422529] nerd: Channel opathchecks registered successfully
+[1506422529] nerd: Fully initialized and ready to rock!
+[1506422529] wproc: Successfully registered manager as @wproc with query handler
+[1506422529] wproc: Registry request: name=Core Worker 22628;pid=22628
+[1506422529] wproc: Registry request: name=Core Worker 22625;pid=22625
+[1506422529] wproc: Registry request: name=Core Worker 22626;pid=22626
+[1506422529] wproc: Registry request: name=Core Worker 22627;pid=22627
+[1506422529] Successfully launched command file worker with pid 22629
+[1506423044] Caught SIGTERM, shutting down...
+[1506423044] Successfully shutdown... (PID=22623)
+[1506423044] Event broker module 'NERD' deinitialized successfully.
+[1506423045] Nagios 4.3.4 starting... (PID=23078)
+[1506423045] Local time is Tue Sep 26 18:50:45 CST 2017
+[1506423045] LOG VERSION: 2.0
+[1506423045] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506423045] qh: core query handler registered
+[1506423045] nerd: Channel hostchecks registered successfully
+[1506423045] nerd: Channel servicechecks registered successfully
+[1506423045] nerd: Channel opathchecks registered successfully
+[1506423045] nerd: Fully initialized and ready to rock!
+[1506423045] wproc: Successfully registered manager as @wproc with query handler
+[1506423045] wproc: Registry request: name=Core Worker 23083;pid=23083
+[1506423045] wproc: Registry request: name=Core Worker 23080;pid=23080
+[1506423045] wproc: Registry request: name=Core Worker 23081;pid=23081
+[1506423045] wproc: Registry request: name=Core Worker 23082;pid=23082
+[1506423045] Successfully launched command file worker with pid 23084
+[1506423275] Caught SIGTERM, shutting down...
+[1506423275] Successfully shutdown... (PID=23078)
+[1506423275] Event broker module 'NERD' deinitialized successfully.
+[1506423276] Nagios 4.3.4 starting... (PID=23320)
+[1506423276] Local time is Tue Sep 26 18:54:36 CST 2017
+[1506423276] LOG VERSION: 2.0
+[1506423276] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506423276] qh: core query handler registered
+[1506423276] nerd: Channel hostchecks registered successfully
+[1506423276] nerd: Channel servicechecks registered successfully
+[1506423276] nerd: Channel opathchecks registered successfully
+[1506423276] nerd: Fully initialized and ready to rock!
+[1506423276] wproc: Successfully registered manager as @wproc with query handler
+[1506423276] wproc: Registry request: name=Core Worker 23324;pid=23324
+[1506423276] wproc: Registry request: name=Core Worker 23325;pid=23325
+[1506423276] wproc: Registry request: name=Core Worker 23322;pid=23322
+[1506423276] wproc: Registry request: name=Core Worker 23323;pid=23323
+[1506423276] Successfully launched command file worker with pid 23326
+[1506423351] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;dev-database;1506423350
+[1506423376] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;dev-database;Current Users;1506423375
+[1506423389] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;dev-database;Current Users;1506423388
+[1506423500] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;dev-database;Current Users;1506423499
+[1506423510] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;dev-bastion;Current Users;1506423509
+[1506423523] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;dev-database;Current Load;1506423521
+[1506423682] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;dev-database;Current Load;1506423681
+[1506423694] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;dev-nginx;1506423693
+[1506423711] Caught SIGTERM, shutting down...
+[1506423711] Successfully shutdown... (PID=23320)
+[1506423711] Event broker module 'NERD' deinitialized successfully.
+[1506423712] Nagios 4.3.4 starting... (PID=23924)
+[1506423712] Local time is Tue Sep 26 19:01:52 CST 2017
+[1506423712] LOG VERSION: 2.0
+[1506423712] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506423712] qh: core query handler registered
+[1506423712] nerd: Channel hostchecks registered successfully
+[1506423712] nerd: Channel servicechecks registered successfully
+[1506423712] nerd: Channel opathchecks registered successfully
+[1506423712] nerd: Fully initialized and ready to rock!
+[1506423712] wproc: Successfully registered manager as @wproc with query handler
+[1506423712] wproc: Registry request: name=Core Worker 23926;pid=23926
+[1506423712] wproc: Registry request: name=Core Worker 23927;pid=23927
+[1506423712] wproc: Registry request: name=Core Worker 23928;pid=23928
+[1506423712] wproc: Registry request: name=Core Worker 23929;pid=23929
+[1506423712] Successfully launched command file worker with pid 23930
+[1506423721] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;dev-bastion;1506423720
+[1506423728] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;dev-bastion;Current Users;1506423727
+[1506425382] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506425382] wproc: NOTIFY job 101 from worker Core Worker 23928 is a non-check helper but exited with return code 127
+[1506425382] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1506425382] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506425382] wproc:   stderr line 01: /bin/sh: /bin/mail: No such file or directory
+[1506425382] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506427312] Auto-save of retention data completed successfully.
+[1506428982] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506428982] wproc: NOTIFY job 320 from worker Core Worker 23929 is a non-check helper but exited with return code 127
+[1506428982] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1506428982] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506428982] wproc:   stderr line 01: /bin/sh: /bin/mail: No such file or directory
+[1506428982] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506430912] Auto-save of retention data completed successfully.
+[1506431322] Caught SIGTERM, shutting down...
+[1506431322] Successfully shutdown... (PID=23924)
+[1506431322] Event broker module 'NERD' deinitialized successfully.
+[1506431323] Nagios 4.3.4 starting... (PID=31283)
+[1506431323] Local time is Tue Sep 26 21:08:43 CST 2017
+[1506431323] LOG VERSION: 2.0
+[1506431323] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506431323] qh: core query handler registered
+[1506431323] nerd: Channel hostchecks registered successfully
+[1506431323] nerd: Channel servicechecks registered successfully
+[1506431323] nerd: Channel opathchecks registered successfully
+[1506431323] nerd: Fully initialized and ready to rock!
+[1506431323] wproc: Successfully registered manager as @wproc with query handler
+[1506431323] wproc: Registry request: name=Core Worker 31288;pid=31288
+[1506431323] wproc: Registry request: name=Core Worker 31285;pid=31285
+[1506431323] wproc: Registry request: name=Core Worker 31286;pid=31286
+[1506431323] wproc: Registry request: name=Core Worker 31287;pid=31287
+[1506431323] Successfully launched command file worker with pid 31289
+[1506431418] Caught SIGTERM, shutting down...
+[1506431418] Successfully shutdown... (PID=31283)
+[1506431418] Event broker module 'NERD' deinitialized successfully.
+[1506431419] Nagios 4.3.4 starting... (PID=31431)
+[1506431419] Local time is Tue Sep 26 21:10:19 CST 2017
+[1506431419] LOG VERSION: 2.0
+[1506431419] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506431419] qh: core query handler registered
+[1506431419] nerd: Channel hostchecks registered successfully
+[1506431419] nerd: Channel servicechecks registered successfully
+[1506431419] nerd: Channel opathchecks registered successfully
+[1506431419] nerd: Fully initialized and ready to rock!
+[1506431419] wproc: Successfully registered manager as @wproc with query handler
+[1506431419] wproc: Registry request: name=Core Worker 31436;pid=31436
+[1506431419] wproc: Registry request: name=Core Worker 31433;pid=31433
+[1506431419] wproc: Registry request: name=Core Worker 31434;pid=31434
+[1506431419] wproc: Registry request: name=Core Worker 31435;pid=31435
+[1506431419] Successfully launched command file worker with pid 31437
+[1506432238] Caught SIGTERM, shutting down...
+[1506432238] Successfully shutdown... (PID=31431)
+[1506432238] Event broker module 'NERD' deinitialized successfully.
+[1506432239] Nagios 4.3.4 starting... (PID=32449)
+[1506432239] Local time is Tue Sep 26 21:23:59 CST 2017
+[1506432239] LOG VERSION: 2.0
+[1506432239] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506432239] qh: core query handler registered
+[1506432239] nerd: Channel hostchecks registered successfully
+[1506432239] nerd: Channel servicechecks registered successfully
+[1506432239] nerd: Channel opathchecks registered successfully
+[1506432239] nerd: Fully initialized and ready to rock!
+[1506432239] wproc: Successfully registered manager as @wproc with query handler
+[1506432239] wproc: Registry request: name=Core Worker 32454;pid=32454
+[1506432239] wproc: Registry request: name=Core Worker 32451;pid=32451
+[1506432239] wproc: Registry request: name=Core Worker 32452;pid=32452
+[1506432239] wproc: Registry request: name=Core Worker 32453;pid=32453
+[1506432239] Successfully launched command file worker with pid 32455
+[1506432361] Caught SIGTERM, shutting down...
+[1506432361] Successfully shutdown... (PID=32449)
+[1506432361] Event broker module 'NERD' deinitialized successfully.
+[1506432362] Nagios 4.3.4 starting... (PID=32627)
+[1506432362] Local time is Tue Sep 26 21:26:02 CST 2017
+[1506432362] LOG VERSION: 2.0
+[1506432362] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506432362] qh: core query handler registered
+[1506432362] nerd: Channel hostchecks registered successfully
+[1506432362] nerd: Channel servicechecks registered successfully
+[1506432362] nerd: Channel opathchecks registered successfully
+[1506432362] nerd: Fully initialized and ready to rock!
+[1506432362] wproc: Successfully registered manager as @wproc with query handler
+[1506432362] wproc: Registry request: name=Core Worker 32632;pid=32632
+[1506432362] wproc: Registry request: name=Core Worker 32629;pid=32629
+[1506432362] wproc: Registry request: name=Core Worker 32630;pid=32630
+[1506432362] wproc: Registry request: name=Core Worker 32631;pid=32631
+[1506432362] Successfully launched command file worker with pid 32633
+[1506432434] Caught SIGTERM, shutting down...
+[1506432434] Successfully shutdown... (PID=32627)
+[1506432434] Event broker module 'NERD' deinitialized successfully.
+[1506432435] Nagios 4.3.4 starting... (PID=32767)
+[1506432435] Local time is Tue Sep 26 21:27:15 CST 2017
+[1506432435] LOG VERSION: 2.0
+[1506432435] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506432435] qh: core query handler registered
+[1506432435] nerd: Channel hostchecks registered successfully
+[1506432435] nerd: Channel servicechecks registered successfully
+[1506432435] nerd: Channel opathchecks registered successfully
+[1506432435] nerd: Fully initialized and ready to rock!
+[1506432435] wproc: Successfully registered manager as @wproc with query handler
+[1506432435] wproc: Registry request: name=Core Worker 304;pid=304
+[1506432435] wproc: Registry request: name=Core Worker 301;pid=301
+[1506432435] wproc: Registry request: name=Core Worker 302;pid=302
+[1506432435] wproc: Registry request: name=Core Worker 303;pid=303
+[1506432435] Successfully launched command file worker with pid 305
+[1506432582] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506432582] wproc: NOTIFY job 10 from worker Core Worker 303 is a non-check helper but exited with return code 127
+[1506432582] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1506432582] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506432582] wproc:   stderr line 01: /bin/sh: /bin/mail: No such file or directory
+[1506432582] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506436035] Auto-save of retention data completed successfully.
+[1506436182] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506436182] wproc: NOTIFY job 274 from worker Core Worker 301 is a non-check helper but exited with return code 127
+[1506436182] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1506436182] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506436182] wproc:   stderr line 01: /bin/sh: /bin/mail: No such file or directory
+[1506436182] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506437362] Caught SIGTERM, shutting down...
+[1506437362] Successfully shutdown... (PID=32767)
+[1506437362] Event broker module 'NERD' deinitialized successfully.
+[1506437363] Nagios 4.3.4 starting... (PID=5517)
+[1506437363] Local time is Tue Sep 26 22:49:23 CST 2017
+[1506437363] LOG VERSION: 2.0
+[1506437363] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506437363] qh: core query handler registered
+[1506437363] nerd: Channel hostchecks registered successfully
+[1506437363] nerd: Channel servicechecks registered successfully
+[1506437363] nerd: Channel opathchecks registered successfully
+[1506437363] nerd: Fully initialized and ready to rock!
+[1506437363] wproc: Successfully registered manager as @wproc with query handler
+[1506437363] wproc: Registry request: name=Core Worker 5522;pid=5522
+[1506437363] wproc: Registry request: name=Core Worker 5519;pid=5519
+[1506437363] wproc: Registry request: name=Core Worker 5520;pid=5520
+[1506437363] wproc: Registry request: name=Core Worker 5521;pid=5521
+[1506437363] Successfully launched command file worker with pid 5523
+[1506437367] wproc: OCHP job 0 from worker Core Worker 5519 is a non-check helper but exited with return code 2
+[1506437367] wproc:   host=dev-nginx; service=(none); contact=(none)
+[1506437367] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437367] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437373] wproc: OCSP job 0 from worker Core Worker 5521 is a non-check helper but exited with return code 2
+[1506437373] wproc:   host=localhost; service=Root Partition; contact=(none)
+[1506437373] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437373] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437382] wproc: OCSP job 1 from worker Core Worker 5520 is a non-check helper but exited with return code 2
+[1506437382] wproc:   host=localhost; service=Swap Usage; contact=(none)
+[1506437382] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437382] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437382] wproc: OCSP job 1 from worker Core Worker 5521 is a non-check helper but exited with return code 2
+[1506437382] wproc:   host=dev-bastion; service=HTTP; contact=(none)
+[1506437382] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437382] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437389] wproc: OCSP job 2 from worker Core Worker 5520 is a non-check helper but exited with return code 2
+[1506437389] wproc:   host=localhost; service=HTTP; contact=(none)
+[1506437389] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437389] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437389] wproc: OCHP job 2 from worker Core Worker 5521 is a non-check helper but exited with return code 2
+[1506437389] wproc:   host=dev-database; service=(none); contact=(none)
+[1506437389] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437389] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437390] wproc: OCSP job 3 from worker Core Worker 5520 is a non-check helper but exited with return code 2
+[1506437390] wproc:   host=dev-bastion; service=Total Processes; contact=(none)
+[1506437390] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437390] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437390] wproc: OCSP job 3 from worker Core Worker 5521 is a non-check helper but exited with return code 2
+[1506437390] wproc:   host=dev-database; service=HTTP; contact=(none)
+[1506437390] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437390] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437394] Caught SIGTERM, shutting down...
+[1506437394] Successfully shutdown... (PID=5517)
+[1506437394] Event broker module 'NERD' deinitialized successfully.
+[1506437395] Nagios 4.3.4 starting... (PID=5615)
+[1506437395] Local time is Tue Sep 26 22:49:55 CST 2017
+[1506437395] LOG VERSION: 2.0
+[1506437395] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506437395] qh: core query handler registered
+[1506437395] nerd: Channel hostchecks registered successfully
+[1506437395] nerd: Channel servicechecks registered successfully
+[1506437395] nerd: Channel opathchecks registered successfully
+[1506437395] nerd: Fully initialized and ready to rock!
+[1506437395] wproc: Successfully registered manager as @wproc with query handler
+[1506437395] wproc: Registry request: name=Core Worker 5620;pid=5620
+[1506437395] wproc: Registry request: name=Core Worker 5617;pid=5617
+[1506437395] wproc: Registry request: name=Core Worker 5618;pid=5618
+[1506437395] wproc: Registry request: name=Core Worker 5619;pid=5619
+[1506437395] Successfully launched command file worker with pid 5621
+[1506437397] wproc: OCSP job 0 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437397] wproc:   host=localhost; service=SSH; contact=(none)
+[1506437397] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437397] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437400] wproc: OCSP job 1 from worker Core Worker 5620 is a non-check helper but exited with return code 2
+[1506437400] wproc:   host=localhost; service=Total Processes; contact=(none)
+[1506437400] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437400] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437404] wproc: OCHP job 1 from worker Core Worker 5618 is a non-check helper but exited with return code 2
+[1506437404] wproc:   host=dev-services; service=(none); contact=(none)
+[1506437404] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437404] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437405] wproc: OCSP job 2 from worker Core Worker 5620 is a non-check helper but exited with return code 2
+[1506437405] wproc:   host=dev-services; service=HTTP; contact=(none)
+[1506437405] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437405] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437407] wproc: OCHP job 2 from worker Core Worker 5618 is a non-check helper but exited with return code 2
+[1506437407] wproc:   host=dev-bastion; service=(none); contact=(none)
+[1506437407] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437407] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437410] wproc: OCSP job 3 from worker Core Worker 5620 is a non-check helper but exited with return code 2
+[1506437410] wproc:   host=localhost; service=Current Load; contact=(none)
+[1506437410] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437410] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437411] wproc: OCSP job 3 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437411] wproc:   host=localhost; service=PING; contact=(none)
+[1506437411] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437411] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437427] wproc: OCSP job 4 from worker Core Worker 5620 is a non-check helper but exited with return code 2
+[1506437427] wproc:   host=dev-bastion; service=Current Load; contact=(none)
+[1506437427] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437427] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437429] wproc: OCSP job 4 from worker Core Worker 5618 is a non-check helper but exited with return code 2
+[1506437429] wproc:   host=localhost; service=Current Users; contact=(none)
+[1506437429] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437429] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437431] wproc: OCHP job 4 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437431] wproc:   host=dev-nginx; service=(none); contact=(none)
+[1506437431] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437431] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437433] wproc: OCSP job 5 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437433] wproc:   host=localhost; service=Root Partition; contact=(none)
+[1506437433] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437433] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437442] wproc: OCSP job 6 from worker Core Worker 5620 is a non-check helper but exited with return code 2
+[1506437442] wproc:   host=localhost; service=Swap Usage; contact=(none)
+[1506437442] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437442] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437442] wproc: OCSP job 6 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437442] wproc:   host=dev-nginx; service=Current Load; contact=(none)
+[1506437442] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437442] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437449] wproc: OCSP job 7 from worker Core Worker 5620 is a non-check helper but exited with return code 2
+[1506437449] wproc:   host=localhost; service=HTTP; contact=(none)
+[1506437449] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437449] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437451] wproc: OCSP job 7 from worker Core Worker 5618 is a non-check helper but exited with return code 2
+[1506437451] wproc:   host=dev-services; service=Current Load; contact=(none)
+[1506437451] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437451] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437453] wproc: OCHP job 7 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437453] wproc:   host=dev-database; service=(none); contact=(none)
+[1506437453] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437453] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437457] wproc: OCSP job 8 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437457] wproc:   host=localhost; service=SSH; contact=(none)
+[1506437457] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437457] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437460] wproc: OCSP job 8 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437460] wproc:   host=localhost; service=Total Processes; contact=(none)
+[1506437460] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437460] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437468] wproc: OCHP job 9 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437468] wproc:   host=dev-services; service=(none); contact=(none)
+[1506437468] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437468] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437470] wproc: OCSP job 10 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437470] wproc:   host=localhost; service=Current Load; contact=(none)
+[1506437470] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437470] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437471] wproc: OCSP job 10 from worker Core Worker 5618 is a non-check helper but exited with return code 2
+[1506437471] wproc:   host=localhost; service=PING; contact=(none)
+[1506437471] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437471] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437471] wproc: OCHP job 10 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437471] wproc:   host=dev-bastion; service=(none); contact=(none)
+[1506437471] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437471] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437480] wproc: OCSP job 11 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437480] wproc:   host=dev-nginx; service=Current Users; contact=(none)
+[1506437480] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437480] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437482] wproc: OCSP job 11 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437482] wproc:   host=dev-database; service=Current Load; contact=(none)
+[1506437482] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437482] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437487] wproc: OCSP job 12 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437487] wproc:   host=dev-services; service=Current Users; contact=(none)
+[1506437487] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437487] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437489] wproc: OCSP job 12 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437489] wproc:   host=localhost; service=Current Users; contact=(none)
+[1506437489] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437489] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437493] wproc: OCSP job 13 from worker Core Worker 5618 is a non-check helper but exited with return code 2
+[1506437493] wproc:   host=localhost; service=Root Partition; contact=(none)
+[1506437493] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437493] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437495] wproc: OCSP job 14 from worker Core Worker 5620 is a non-check helper but exited with return code 2
+[1506437495] wproc:   host=dev-bastion; service=SSH; contact=(none)
+[1506437495] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437495] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437495] wproc: OCHP job 14 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437495] wproc:   host=dev-nginx; service=(none); contact=(none)
+[1506437495] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437495] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437498] wproc: OCSP job 14 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437498] wproc:   host=dev-services; service=Total Processes; contact=(none)
+[1506437498] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437498] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437502] wproc: OCSP job 15 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437502] wproc:   host=localhost; service=Swap Usage; contact=(none)
+[1506437502] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437502] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437509] wproc: OCSP job 15 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437509] wproc:   host=localhost; service=HTTP; contact=(none)
+[1506437509] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437509] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437510] wproc: OCSP job 16 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437510] wproc:   host=dev-database; service=Total Processes; contact=(none)
+[1506437510] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437510] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437517] wproc: OCSP job 17 from worker Core Worker 5620 is a non-check helper but exited with return code 2
+[1506437517] wproc:   host=dev-nginx; service=HTTP; contact=(none)
+[1506437517] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437517] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437517] wproc: OCSP job 17 from worker Core Worker 5618 is a non-check helper but exited with return code 2
+[1506437517] wproc:   host=localhost; service=SSH; contact=(none)
+[1506437517] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437517] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437517] wproc: OCHP job 17 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437517] wproc:   host=dev-database; service=(none); contact=(none)
+[1506437517] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437517] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437520] wproc: OCSP job 18 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437520] wproc:   host=localhost; service=Total Processes; contact=(none)
+[1506437520] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437520] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437528] wproc: OCSP job 19 from worker Core Worker 5620 is a non-check helper but exited with return code 2
+[1506437528] wproc:   host=dev-bastion; service=Current Users; contact=(none)
+[1506437528] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437528] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437530] wproc: OCSP job 19 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437530] wproc:   host=localhost; service=Current Load; contact=(none)
+[1506437530] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437530] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437531] wproc: OCSP job 20 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437531] wproc:   host=localhost; service=PING; contact=(none)
+[1506437531] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437531] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437532] wproc: OCHP job 20 from worker Core Worker 5618 is a non-check helper but exited with return code 2
+[1506437532] wproc:   host=dev-services; service=(none); contact=(none)
+[1506437532] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437532] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437535] wproc: OCHP job 20 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437535] wproc:   host=dev-bastion; service=(none); contact=(none)
+[1506437535] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437535] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437549] wproc: OCSP job 21 from worker Core Worker 5618 is a non-check helper but exited with return code 2
+[1506437549] wproc:   host=localhost; service=Current Users; contact=(none)
+[1506437549] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437549] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437551] wproc: OCSP job 21 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437551] wproc:   host=dev-database; service=PING; contact=(none)
+[1506437551] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437551] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437553] wproc: OCSP job 22 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437553] wproc:   host=localhost; service=Root Partition; contact=(none)
+[1506437553] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437553] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437559] wproc: OCSP job 23 from worker Core Worker 5620 is a non-check helper but exited with return code 2
+[1506437559] wproc:   host=dev-nginx; service=PING; contact=(none)
+[1506437559] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437559] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437559] wproc: OCHP job 23 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437559] wproc:   host=dev-nginx; service=(none); contact=(none)
+[1506437559] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437559] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437562] wproc: OCSP job 24 from worker Core Worker 5620 is a non-check helper but exited with return code 2
+[1506437562] wproc:   host=localhost; service=Swap Usage; contact=(none)
+[1506437562] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437562] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437566] wproc: OCSP job 24 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437566] wproc:   host=dev-services; service=PING; contact=(none)
+[1506437566] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437566] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437567] wproc: OCSP job 24 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437567] wproc:   host=dev-nginx; service=Total Processes; contact=(none)
+[1506437567] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437567] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437569] wproc: OCSP job 25 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437569] wproc:   host=localhost; service=HTTP; contact=(none)
+[1506437569] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437569] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437577] wproc: OCSP job 25 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437577] wproc:   host=dev-bastion; service=Root Partition; contact=(none)
+[1506437577] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437577] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437577] wproc: OCSP job 26 from worker Core Worker 5618 is a non-check helper but exited with return code 2
+[1506437577] wproc:   host=localhost; service=SSH; contact=(none)
+[1506437577] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437577] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437580] wproc: OCSP job 27 from worker Core Worker 5620 is a non-check helper but exited with return code 2
+[1506437580] wproc:   host=localhost; service=Total Processes; contact=(none)
+[1506437580] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437580] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437581] wproc: OCHP job 27 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437581] wproc:   host=dev-database; service=(none); contact=(none)
+[1506437581] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437581] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437585] wproc: OCSP job 28 from worker Core Worker 5620 is a non-check helper but exited with return code 2
+[1506437585] wproc:   host=dev-database; service=Root Partition; contact=(none)
+[1506437585] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437585] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437589] wproc: OCSP job 28 from worker Core Worker 5618 is a non-check helper but exited with return code 2
+[1506437589] wproc:   host=dev-bastion; service=PING; contact=(none)
+[1506437589] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437589] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437590] wproc: OCSP job 29 from worker Core Worker 5620 is a non-check helper but exited with return code 2
+[1506437590] wproc:   host=localhost; service=Current Load; contact=(none)
+[1506437590] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437590] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437591] wproc: OCSP job 29 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437591] wproc:   host=localhost; service=PING; contact=(none)
+[1506437591] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437591] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437592] wproc: OCSP job 29 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437592] wproc:   host=dev-nginx; service=Root Partition; contact=(none)
+[1506437592] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437592] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437596] wproc: OCHP job 30 from worker Core Worker 5618 is a non-check helper but exited with return code 2
+[1506437596] wproc:   host=dev-services; service=(none); contact=(none)
+[1506437596] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437596] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437599] wproc: OCHP job 30 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437599] wproc:   host=dev-bastion; service=(none); contact=(none)
+[1506437599] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437599] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437600] wproc: OCSP job 31 from worker Core Worker 5618 is a non-check helper but exited with return code 2
+[1506437600] wproc:   host=dev-database; service=Current Users; contact=(none)
+[1506437600] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437600] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437600] wproc: OCSP job 31 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437600] wproc:   host=dev-services; service=Root Partition; contact=(none)
+[1506437600] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437600] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437609] wproc: OCSP job 32 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437609] wproc:   host=localhost; service=Current Users; contact=(none)
+[1506437609] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437609] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437613] wproc: OCSP job 33 from worker Core Worker 5620 is a non-check helper but exited with return code 2
+[1506437613] wproc:   host=localhost; service=Root Partition; contact=(none)
+[1506437613] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437613] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437615] wproc: OCHP job 33 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437615] wproc:   host=localhost; service=(none); contact=(none)
+[1506437615] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437615] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437622] wproc: OCSP job 34 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437622] wproc:   host=localhost; service=Swap Usage; contact=(none)
+[1506437622] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437622] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437622] wproc: OCSP job 34 from worker Core Worker 5618 is a non-check helper but exited with return code 2
+[1506437622] wproc:   host=dev-database; service=SSH; contact=(none)
+[1506437622] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437622] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437623] wproc: OCHP job 34 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437623] wproc:   host=dev-nginx; service=(none); contact=(none)
+[1506437623] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437623] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437629] wproc: OCSP job 35 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437629] wproc:   host=localhost; service=HTTP; contact=(none)
+[1506437629] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437629] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437630] wproc: OCSP job 35 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437630] wproc:   host=dev-nginx; service=SSH; contact=(none)
+[1506437630] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437630] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437637] wproc: OCSP job 36 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437637] wproc:   host=dev-services; service=SSH; contact=(none)
+[1506437637] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437637] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437637] wproc: OCSP job 36 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437637] wproc:   host=localhost; service=SSH; contact=(none)
+[1506437637] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437637] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437640] wproc: OCSP job 37 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437640] wproc:   host=localhost; service=Total Processes; contact=(none)
+[1506437640] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437640] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437645] wproc: OCHP job 37 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437645] wproc:   host=dev-database; service=(none); contact=(none)
+[1506437645] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437645] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437650] wproc: OCSP job 38 from worker Core Worker 5618 is a non-check helper but exited with return code 2
+[1506437650] wproc:   host=localhost; service=Current Load; contact=(none)
+[1506437650] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437650] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437651] wproc: OCSP job 38 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437651] wproc:   host=localhost; service=PING; contact=(none)
+[1506437651] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437651] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437660] wproc: OCHP job 39 from worker Core Worker 5618 is a non-check helper but exited with return code 2
+[1506437660] wproc:   host=dev-services; service=(none); contact=(none)
+[1506437660] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437660] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437663] wproc: OCHP job 39 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437663] wproc:   host=dev-bastion; service=(none); contact=(none)
+[1506437663] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437663] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437669] wproc: OCSP job 40 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437669] wproc:   host=localhost; service=Current Users; contact=(none)
+[1506437669] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437669] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437673] wproc: OCSP job 40 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437673] wproc:   host=localhost; service=Root Partition; contact=(none)
+[1506437673] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437673] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437682] wproc: OCSP job 41 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437682] wproc:   host=dev-bastion; service=HTTP; contact=(none)
+[1506437682] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437682] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437682] wproc: OCSP job 41 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437682] wproc:   host=localhost; service=Swap Usage; contact=(none)
+[1506437682] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437682] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437687] wproc: OCHP job 42 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437687] wproc:   host=dev-nginx; service=(none); contact=(none)
+[1506437687] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437687] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437689] wproc: OCSP job 42 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437689] wproc:   host=localhost; service=HTTP; contact=(none)
+[1506437689] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437689] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437690] wproc: OCSP job 43 from worker Core Worker 5618 is a non-check helper but exited with return code 2
+[1506437690] wproc:   host=dev-bastion; service=Total Processes; contact=(none)
+[1506437690] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437690] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437690] wproc: OCSP job 43 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437690] wproc:   host=dev-database; service=HTTP; contact=(none)
+[1506437690] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437690] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437697] wproc: OCSP job 44 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437697] wproc:   host=localhost; service=SSH; contact=(none)
+[1506437697] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437697] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437700] wproc: OCSP job 44 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437700] wproc:   host=localhost; service=Total Processes; contact=(none)
+[1506437700] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437700] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437705] wproc: OCSP job 45 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437705] wproc:   host=dev-services; service=HTTP; contact=(none)
+[1506437705] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437705] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437709] wproc: OCHP job 46 from worker Core Worker 5620 is a non-check helper but exited with return code 2
+[1506437709] wproc:   host=dev-database; service=(none); contact=(none)
+[1506437709] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437709] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437710] wproc: OCSP job 46 from worker Core Worker 5618 is a non-check helper but exited with return code 2
+[1506437710] wproc:   host=localhost; service=Current Load; contact=(none)
+[1506437710] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437710] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437711] wproc: OCSP job 46 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437711] wproc:   host=localhost; service=PING; contact=(none)
+[1506437711] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437711] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437724] wproc: OCHP job 47 from worker Core Worker 5618 is a non-check helper but exited with return code 2
+[1506437724] wproc:   host=dev-services; service=(none); contact=(none)
+[1506437724] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437724] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437727] wproc: OCSP job 48 from worker Core Worker 5620 is a non-check helper but exited with return code 2
+[1506437727] wproc:   host=dev-bastion; service=Current Load; contact=(none)
+[1506437727] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437727] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437727] wproc: OCHP job 48 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437727] wproc:   host=dev-bastion; service=(none); contact=(none)
+[1506437727] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437727] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437729] wproc: OCSP job 48 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437729] wproc:   host=localhost; service=Current Users; contact=(none)
+[1506437729] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437729] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437733] wproc: OCSP job 49 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437733] wproc:   host=localhost; service=Root Partition; contact=(none)
+[1506437733] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437733] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437742] wproc: OCSP job 50 from worker Core Worker 5620 is a non-check helper but exited with return code 2
+[1506437742] wproc:   host=localhost; service=Swap Usage; contact=(none)
+[1506437742] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437742] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437742] wproc: OCSP job 50 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437742] wproc:   host=dev-nginx; service=Current Load; contact=(none)
+[1506437742] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437742] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437749] wproc: OCSP job 51 from worker Core Worker 5620 is a non-check helper but exited with return code 2
+[1506437749] wproc:   host=localhost; service=HTTP; contact=(none)
+[1506437749] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437749] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437751] wproc: OCSP job 51 from worker Core Worker 5618 is a non-check helper but exited with return code 2
+[1506437751] wproc:   host=dev-services; service=Current Load; contact=(none)
+[1506437751] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437751] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437751] wproc: OCHP job 51 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437751] wproc:   host=dev-nginx; service=(none); contact=(none)
+[1506437751] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437751] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437757] wproc: OCSP job 52 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437757] wproc:   host=localhost; service=SSH; contact=(none)
+[1506437757] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437757] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437760] wproc: OCSP job 52 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437760] wproc:   host=localhost; service=Total Processes; contact=(none)
+[1506437760] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437760] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437770] wproc: OCSP job 53 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437770] wproc:   host=localhost; service=Current Load; contact=(none)
+[1506437770] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437770] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437771] wproc: OCSP job 54 from worker Core Worker 5620 is a non-check helper but exited with return code 2
+[1506437771] wproc:   host=localhost; service=PING; contact=(none)
+[1506437771] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437771] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437773] wproc: OCHP job 54 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437773] wproc:   host=dev-database; service=(none); contact=(none)
+[1506437773] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437773] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437780] wproc: OCSP job 54 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437780] wproc:   host=dev-nginx; service=Current Users; contact=(none)
+[1506437780] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437780] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437782] wproc: OCSP job 55 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437782] wproc:   host=dev-database; service=Current Load; contact=(none)
+[1506437782] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437782] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437787] wproc: OCSP job 56 from worker Core Worker 5620 is a non-check helper but exited with return code 2
+[1506437787] wproc:   host=dev-services; service=Current Users; contact=(none)
+[1506437787] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437787] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437788] wproc: OCHP job 56 from worker Core Worker 5618 is a non-check helper but exited with return code 2
+[1506437788] wproc:   host=dev-services; service=(none); contact=(none)
+[1506437788] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437788] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437789] wproc: OCSP job 57 from worker Core Worker 5620 is a non-check helper but exited with return code 2
+[1506437789] wproc:   host=localhost; service=Current Users; contact=(none)
+[1506437789] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437789] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437791] wproc: OCHP job 57 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437791] wproc:   host=dev-bastion; service=(none); contact=(none)
+[1506437791] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437791] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437793] wproc: OCSP job 57 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437793] wproc:   host=localhost; service=Root Partition; contact=(none)
+[1506437793] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437793] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437795] wproc: OCSP job 58 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437795] wproc:   host=dev-bastion; service=SSH; contact=(none)
+[1506437795] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437795] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437798] wproc: OCSP job 58 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437798] wproc:   host=dev-services; service=Total Processes; contact=(none)
+[1506437798] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437798] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437802] wproc: OCSP job 59 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437802] wproc:   host=localhost; service=Swap Usage; contact=(none)
+[1506437802] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437802] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437809] wproc: OCSP job 59 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437809] wproc:   host=localhost; service=HTTP; contact=(none)
+[1506437809] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437809] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437810] wproc: OCSP job 60 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437810] wproc:   host=dev-database; service=Total Processes; contact=(none)
+[1506437810] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437810] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437815] wproc: OCHP job 60 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437815] wproc:   host=dev-nginx; service=(none); contact=(none)
+[1506437815] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437815] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437817] wproc: OCSP job 61 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437817] wproc:   host=dev-nginx; service=HTTP; contact=(none)
+[1506437817] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437817] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437817] wproc: OCSP job 61 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437817] wproc:   host=localhost; service=SSH; contact=(none)
+[1506437817] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437817] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437820] wproc: OCSP job 62 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437820] wproc:   host=localhost; service=Total Processes; contact=(none)
+[1506437820] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437820] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437828] wproc: OCSP job 63 from worker Core Worker 5620 is a non-check helper but exited with return code 2
+[1506437828] wproc:   host=dev-bastion; service=Current Users; contact=(none)
+[1506437828] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437828] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437830] wproc: OCSP job 63 from worker Core Worker 5618 is a non-check helper but exited with return code 2
+[1506437830] wproc:   host=localhost; service=Current Load; contact=(none)
+[1506437830] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437830] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437831] wproc: OCSP job 63 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437831] wproc:   host=localhost; service=PING; contact=(none)
+[1506437831] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437831] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437837] wproc: OCHP job 64 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437837] wproc:   host=dev-database; service=(none); contact=(none)
+[1506437837] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437837] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437849] wproc: OCSP job 65 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437849] wproc:   host=localhost; service=Current Users; contact=(none)
+[1506437849] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437849] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437851] wproc: OCSP job 65 from worker Core Worker 5618 is a non-check helper but exited with return code 2
+[1506437851] wproc:   host=dev-database; service=PING; contact=(none)
+[1506437851] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437851] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437852] wproc: OCHP job 66 from worker Core Worker 5620 is a non-check helper but exited with return code 2
+[1506437852] wproc:   host=dev-services; service=(none); contact=(none)
+[1506437852] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437852] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437853] wproc: OCSP job 66 from worker Core Worker 5618 is a non-check helper but exited with return code 2
+[1506437853] wproc:   host=localhost; service=Root Partition; contact=(none)
+[1506437853] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437853] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437855] wproc: OCHP job 67 from worker Core Worker 5620 is a non-check helper but exited with return code 2
+[1506437855] wproc:   host=dev-bastion; service=(none); contact=(none)
+[1506437855] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437855] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437859] wproc: OCSP job 67 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437859] wproc:   host=dev-nginx; service=PING; contact=(none)
+[1506437859] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437859] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437862] wproc: OCSP job 68 from worker Core Worker 5620 is a non-check helper but exited with return code 2
+[1506437862] wproc:   host=localhost; service=Swap Usage; contact=(none)
+[1506437862] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437862] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437866] wproc: OCSP job 68 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437866] wproc:   host=dev-services; service=PING; contact=(none)
+[1506437866] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437866] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437867] wproc: OCSP job 68 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437867] wproc:   host=dev-nginx; service=Total Processes; contact=(none)
+[1506437867] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437867] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437869] wproc: OCSP job 69 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437869] wproc:   host=localhost; service=HTTP; contact=(none)
+[1506437869] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437869] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437877] wproc: OCSP job 70 from worker Core Worker 5620 is a non-check helper but exited with return code 2
+[1506437877] wproc:   host=dev-bastion; service=Root Partition; contact=(none)
+[1506437877] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437877] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437877] wproc: OCSP job 70 from worker Core Worker 5618 is a non-check helper but exited with return code 2
+[1506437877] wproc:   host=localhost; service=SSH; contact=(none)
+[1506437877] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437877] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437879] wproc: OCHP job 70 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437879] wproc:   host=dev-nginx; service=(none); contact=(none)
+[1506437879] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437879] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437880] wproc: OCSP job 71 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437880] wproc:   host=localhost; service=Total Processes; contact=(none)
+[1506437880] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437880] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437885] wproc: OCSP job 71 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437885] wproc:   host=dev-database; service=Root Partition; contact=(none)
+[1506437885] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437885] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437889] wproc: OCSP job 72 from worker Core Worker 5618 is a non-check helper but exited with return code 2
+[1506437889] wproc:   host=dev-bastion; service=PING; contact=(none)
+[1506437889] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437889] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437890] wproc: OCSP job 73 from worker Core Worker 5620 is a non-check helper but exited with return code 2
+[1506437890] wproc:   host=localhost; service=Current Load; contact=(none)
+[1506437890] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437890] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437891] wproc: OCSP job 73 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437891] wproc:   host=localhost; service=PING; contact=(none)
+[1506437891] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437891] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437892] wproc: OCSP job 73 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437892] wproc:   host=dev-nginx; service=Root Partition; contact=(none)
+[1506437892] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437892] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437900] wproc: OCSP job 74 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437900] wproc:   host=dev-database; service=Current Users; contact=(none)
+[1506437900] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437900] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437900] wproc: OCSP job 75 from worker Core Worker 5620 is a non-check helper but exited with return code 2
+[1506437900] wproc:   host=dev-services; service=Root Partition; contact=(none)
+[1506437900] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437900] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437901] wproc: OCHP job 75 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437901] wproc:   host=dev-database; service=(none); contact=(none)
+[1506437901] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437901] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437909] wproc: OCSP job 75 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437909] wproc:   host=localhost; service=Current Users; contact=(none)
+[1506437909] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437909] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437913] wproc: OCSP job 76 from worker Core Worker 5618 is a non-check helper but exited with return code 2
+[1506437913] wproc:   host=localhost; service=Root Partition; contact=(none)
+[1506437913] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437913] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437916] wproc: OCHP job 77 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437916] wproc:   host=dev-services; service=(none); contact=(none)
+[1506437916] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437916] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437919] wproc: OCHP job 77 from worker Core Worker 5618 is a non-check helper but exited with return code 2
+[1506437919] wproc:   host=localhost; service=(none); contact=(none)
+[1506437919] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437919] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437919] wproc: OCHP job 77 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437919] wproc:   host=dev-bastion; service=(none); contact=(none)
+[1506437919] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437919] wproc:   stderr line 01: execvp(/submit_host_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437922] wproc: OCSP job 78 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437922] wproc:   host=localhost; service=Swap Usage; contact=(none)
+[1506437922] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437922] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437922] wproc: OCSP job 78 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437922] wproc:   host=dev-database; service=SSH; contact=(none)
+[1506437922] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437922] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437929] wproc: OCSP job 79 from worker Core Worker 5617 is a non-check helper but exited with return code 2
+[1506437929] wproc:   host=localhost; service=HTTP; contact=(none)
+[1506437929] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437929] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437930] wproc: OCSP job 79 from worker Core Worker 5619 is a non-check helper but exited with return code 2
+[1506437930] wproc:   host=dev-nginx; service=SSH; contact=(none)
+[1506437930] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506437930] wproc:   stderr line 01: execvp(/submit_service_check.sh, ...) failed. errno is 2: No such file or directory
+[1506437933] Caught SIGTERM, shutting down...
+[1506437933] Successfully shutdown... (PID=5615)
+[1506437933] Event broker module 'NERD' deinitialized successfully.
+[1506437934] Nagios 4.3.4 starting... (PID=6467)
+[1506437934] Local time is Tue Sep 26 22:58:54 CST 2017
+[1506437934] LOG VERSION: 2.0
+[1506437934] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506437934] qh: core query handler registered
+[1506437934] nerd: Channel hostchecks registered successfully
+[1506437934] nerd: Channel servicechecks registered successfully
+[1506437934] nerd: Channel opathchecks registered successfully
+[1506437934] nerd: Fully initialized and ready to rock!
+[1506437934] wproc: Successfully registered manager as @wproc with query handler
+[1506437934] wproc: Registry request: name=Core Worker 6472;pid=6472
+[1506437934] wproc: Registry request: name=Core Worker 6469;pid=6469
+[1506437934] wproc: Registry request: name=Core Worker 6470;pid=6470
+[1506437934] wproc: Registry request: name=Core Worker 6471;pid=6471
+[1506437934] Successfully launched command file worker with pid 6473
+[1506438167] wproc: OCSP job 32 from worker Core Worker 6469 is a non-check helper but exited with return code 2
+[1506438167] wproc:   host=dev-nginx; service=Total Processes; contact=(none)
+[1506438167] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438167] wproc:   stdout line 01: Error: Server closed connection before init packet was received
+[1506438167] wproc:   stdout line 02: Error: Could not read init packet from server
+[1506438169] wproc: OCSP job 33 from worker Core Worker 6472 is a non-check helper but exited with return code 2
+[1506438169] wproc:   host=localhost; service=HTTP; contact=(none)
+[1506438169] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438169] wproc:   stdout line 01: Connection refused by host
+[1506438169] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438172] wproc: OCHP job 33 from worker Core Worker 6470 is a non-check helper but exited with return code 2
+[1506438172] wproc:   host=dev-services; service=(none); contact=(none)
+[1506438172] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438172] wproc:   stdout line 01: Connection refused by host
+[1506438172] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438175] wproc: OCHP job 33 from worker Core Worker 6471 is a non-check helper but exited with return code 2
+[1506438175] wproc:   host=dev-bastion; service=(none); contact=(none)
+[1506438175] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438175] wproc:   stdout line 01: Connection refused by host
+[1506438175] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438177] wproc: OCSP job 34 from worker Core Worker 6469 is a non-check helper but exited with return code 2
+[1506438177] wproc:   host=dev-bastion; service=Root Partition; contact=(none)
+[1506438177] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438177] wproc:   stdout line 01: Connection refused by host
+[1506438177] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438177] wproc: OCSP job 34 from worker Core Worker 6471 is a non-check helper but exited with return code 2
+[1506438177] wproc:   host=localhost; service=SSH; contact=(none)
+[1506438177] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438177] wproc:   stdout line 01: Connection refused by host
+[1506438177] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438180] wproc: OCSP job 35 from worker Core Worker 6469 is a non-check helper but exited with return code 2
+[1506438180] wproc:   host=localhost; service=Total Processes; contact=(none)
+[1506438180] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438180] wproc:   stdout line 01: Connection refused by host
+[1506438180] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438185] wproc: OCSP job 36 from worker Core Worker 6472 is a non-check helper but exited with return code 2
+[1506438185] wproc:   host=dev-database; service=Root Partition; contact=(none)
+[1506438185] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438185] wproc:   stdout line 01: Connection refused by host
+[1506438185] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438189] wproc: OCSP job 36 from worker Core Worker 6470 is a non-check helper but exited with return code 2
+[1506438189] wproc:   host=dev-bastion; service=PING; contact=(none)
+[1506438189] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438189] wproc:   stdout line 01: Connection refused by host
+[1506438189] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438190] wproc: OCSP job 37 from worker Core Worker 6472 is a non-check helper but exited with return code 2
+[1506438190] wproc:   host=localhost; service=Current Load; contact=(none)
+[1506438190] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438190] wproc:   stdout line 01: Connection refused by host
+[1506438190] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438191] wproc: OCSP job 37 from worker Core Worker 6469 is a non-check helper but exited with return code 2
+[1506438191] wproc:   host=localhost; service=PING; contact=(none)
+[1506438191] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438191] wproc:   stdout line 01: Connection refused by host
+[1506438191] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438192] wproc: OCSP job 37 from worker Core Worker 6471 is a non-check helper but exited with return code 2
+[1506438192] wproc:   host=dev-nginx; service=Root Partition; contact=(none)
+[1506438192] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438192] wproc:   stdout line 01: Connection refused by host
+[1506438192] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438199] wproc: OCHP job 38 from worker Core Worker 6469 is a non-check helper but exited with return code 2
+[1506438199] wproc:   host=dev-nginx; service=(none); contact=(none)
+[1506438199] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438199] wproc:   stdout line 01: Connection refused by host
+[1506438199] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438200] wproc: OCSP job 39 from worker Core Worker 6472 is a non-check helper but exited with return code 2
+[1506438200] wproc:   host=dev-database; service=Current Users; contact=(none)
+[1506438200] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438200] wproc:   stdout line 01: Connection refused by host
+[1506438200] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438200] wproc: OCSP job 39 from worker Core Worker 6469 is a non-check helper but exited with return code 2
+[1506438200] wproc:   host=dev-services; service=Root Partition; contact=(none)
+[1506438200] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438200] wproc:   stdout line 01: Connection refused by host
+[1506438200] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438209] wproc: OCSP job 39 from worker Core Worker 6471 is a non-check helper but exited with return code 2
+[1506438209] wproc:   host=localhost; service=Current Users; contact=(none)
+[1506438209] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438209] wproc:   stdout line 01: Connection refused by host
+[1506438209] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438213] wproc: OCSP job 40 from worker Core Worker 6469 is a non-check helper but exited with return code 2
+[1506438213] wproc:   host=localhost; service=Root Partition; contact=(none)
+[1506438213] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438213] wproc:   stdout line 01: Connection refused by host
+[1506438213] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438221] wproc: OCHP job 41 from worker Core Worker 6472 is a non-check helper but exited with return code 2
+[1506438221] wproc:   host=dev-database; service=(none); contact=(none)
+[1506438221] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438221] wproc:   stdout line 01: Connection refused by host
+[1506438221] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438222] wproc: OCSP job 41 from worker Core Worker 6471 is a non-check helper but exited with return code 2
+[1506438222] wproc:   host=localhost; service=Swap Usage; contact=(none)
+[1506438222] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438222] wproc:   stdout line 01: Connection refused by host
+[1506438222] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438222] wproc: OCSP job 42 from worker Core Worker 6472 is a non-check helper but exited with return code 2
+[1506438222] wproc:   host=dev-database; service=SSH; contact=(none)
+[1506438222] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438222] wproc:   stdout line 01: Connection refused by host
+[1506438222] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438223] wproc: OCHP job 42 from worker Core Worker 6469 is a non-check helper but exited with return code 2
+[1506438223] wproc:   host=localhost; service=(none); contact=(none)
+[1506438223] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438223] wproc:   stdout line 01: Connection refused by host
+[1506438223] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438229] wproc: OCSP job 42 from worker Core Worker 6471 is a non-check helper but exited with return code 2
+[1506438229] wproc:   host=localhost; service=HTTP; contact=(none)
+[1506438229] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438229] wproc:   stdout line 01: Connection refused by host
+[1506438229] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438230] wproc: OCSP job 43 from worker Core Worker 6469 is a non-check helper but exited with return code 2
+[1506438230] wproc:   host=dev-nginx; service=SSH; contact=(none)
+[1506438230] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438230] wproc:   stdout line 01: Connection refused by host
+[1506438230] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438236] wproc: OCHP job 44 from worker Core Worker 6472 is a non-check helper but exited with return code 2
+[1506438236] wproc:   host=dev-services; service=(none); contact=(none)
+[1506438236] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438236] wproc:   stdout line 01: Connection refused by host
+[1506438236] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438237] wproc: OCSP job 44 from worker Core Worker 6470 is a non-check helper but exited with return code 2
+[1506438237] wproc:   host=dev-services; service=SSH; contact=(none)
+[1506438237] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438237] wproc:   stdout line 01: Connection refused by host
+[1506438237] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438237] wproc: OCSP job 45 from worker Core Worker 6472 is a non-check helper but exited with return code 2
+[1506438237] wproc:   host=localhost; service=SSH; contact=(none)
+[1506438237] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438237] wproc:   stdout line 01: Connection refused by host
+[1506438237] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438239] wproc: OCHP job 45 from worker Core Worker 6469 is a non-check helper but exited with return code 2
+[1506438239] wproc:   host=dev-bastion; service=(none); contact=(none)
+[1506438239] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438239] wproc:   stdout line 01: Connection refused by host
+[1506438239] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438240] wproc: OCSP job 45 from worker Core Worker 6471 is a non-check helper but exited with return code 2
+[1506438240] wproc:   host=localhost; service=Total Processes; contact=(none)
+[1506438240] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438240] wproc:   stdout line 01: Connection refused by host
+[1506438240] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438250] wproc: OCSP job 46 from worker Core Worker 6470 is a non-check helper but exited with return code 2
+[1506438250] wproc:   host=localhost; service=Current Load; contact=(none)
+[1506438250] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438250] wproc:   stdout line 01: Connection refused by host
+[1506438250] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438251] wproc: OCSP job 46 from worker Core Worker 6471 is a non-check helper but exited with return code 2
+[1506438251] wproc:   host=localhost; service=PING; contact=(none)
+[1506438251] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438251] wproc:   stdout line 01: Connection refused by host
+[1506438251] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438263] wproc: OCHP job 47 from worker Core Worker 6469 is a non-check helper but exited with return code 2
+[1506438263] wproc:   host=dev-nginx; service=(none); contact=(none)
+[1506438263] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438263] wproc:   stdout line 01: Connection refused by host
+[1506438263] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438269] wproc: OCSP job 47 from worker Core Worker 6471 is a non-check helper but exited with return code 2
+[1506438269] wproc:   host=localhost; service=Current Users; contact=(none)
+[1506438269] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438269] wproc:   stdout line 01: Connection refused by host
+[1506438269] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438273] wproc: OCSP job 48 from worker Core Worker 6469 is a non-check helper but exited with return code 2
+[1506438273] wproc:   host=localhost; service=Root Partition; contact=(none)
+[1506438273] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438273] wproc:   stdout line 01: Connection refused by host
+[1506438273] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438282] wproc: OCSP job 49 from worker Core Worker 6469 is a non-check helper but exited with return code 2
+[1506438282] wproc:   host=dev-bastion; service=HTTP; contact=(none)
+[1506438282] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438282] wproc:   stdout line 01: Connection refused by host
+[1506438282] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438282] wproc: OCSP job 49 from worker Core Worker 6470 is a non-check helper but exited with return code 2
+[1506438282] wproc:   host=localhost; service=Swap Usage; contact=(none)
+[1506438282] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438282] wproc:   stdout line 01: Connection refused by host
+[1506438282] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438285] wproc: OCHP job 49 from worker Core Worker 6471 is a non-check helper but exited with return code 2
+[1506438285] wproc:   host=dev-database; service=(none); contact=(none)
+[1506438285] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438285] wproc:   stdout line 01: Connection refused by host
+[1506438285] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438289] wproc: OCSP job 50 from worker Core Worker 6469 is a non-check helper but exited with return code 2
+[1506438289] wproc:   host=localhost; service=HTTP; contact=(none)
+[1506438289] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438289] wproc:   stdout line 01: Connection refused by host
+[1506438289] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438290] wproc: OCSP job 51 from worker Core Worker 6472 is a non-check helper but exited with return code 2
+[1506438290] wproc:   host=dev-bastion; service=Total Processes; contact=(none)
+[1506438290] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438290] wproc:   stdout line 01: Connection refused by host
+[1506438290] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438290] wproc: OCSP job 51 from worker Core Worker 6469 is a non-check helper but exited with return code 2
+[1506438290] wproc:   host=dev-database; service=HTTP; contact=(none)
+[1506438290] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438290] wproc:   stdout line 01: Connection refused by host
+[1506438290] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438297] wproc: OCSP job 52 from worker Core Worker 6472 is a non-check helper but exited with return code 2
+[1506438297] wproc:   host=localhost; service=SSH; contact=(none)
+[1506438297] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438297] wproc:   stdout line 01: Connection refused by host
+[1506438297] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438300] wproc: OCHP job 52 from worker Core Worker 6470 is a non-check helper but exited with return code 2
+[1506438300] wproc:   host=dev-services; service=(none); contact=(none)
+[1506438300] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438300] wproc:   stdout line 01: Connection refused by host
+[1506438300] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438300] wproc: OCSP job 53 from worker Core Worker 6472 is a non-check helper but exited with return code 2
+[1506438300] wproc:   host=localhost; service=Total Processes; contact=(none)
+[1506438300] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438300] wproc:   stdout line 01: Connection refused by host
+[1506438300] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438303] wproc: OCHP job 53 from worker Core Worker 6469 is a non-check helper but exited with return code 2
+[1506438303] wproc:   host=dev-bastion; service=(none); contact=(none)
+[1506438303] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438303] wproc:   stdout line 01: Connection refused by host
+[1506438303] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438305] wproc: OCSP job 53 from worker Core Worker 6471 is a non-check helper but exited with return code 2
+[1506438305] wproc:   host=dev-services; service=HTTP; contact=(none)
+[1506438305] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438305] wproc:   stdout line 01: Connection refused by host
+[1506438305] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438310] wproc: OCSP job 54 from worker Core Worker 6470 is a non-check helper but exited with return code 2
+[1506438310] wproc:   host=localhost; service=Current Load; contact=(none)
+[1506438310] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438310] wproc:   stdout line 01: Connection refused by host
+[1506438310] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438311] wproc: OCSP job 54 from worker Core Worker 6471 is a non-check helper but exited with return code 2
+[1506438311] wproc:   host=localhost; service=PING; contact=(none)
+[1506438311] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438311] wproc:   stdout line 01: Connection refused by host
+[1506438311] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438317] Caught SIGTERM, shutting down...
+[1506438317] Successfully shutdown... (PID=6467)
+[1506438317] Event broker module 'NERD' deinitialized successfully.
+[1506438344] Nagios 4.3.4 starting... (PID=7348)
+[1506438344] Local time is Tue Sep 26 23:05:44 CST 2017
+[1506438344] LOG VERSION: 2.0
+[1506438344] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506438344] qh: core query handler registered
+[1506438344] nerd: Channel hostchecks registered successfully
+[1506438344] nerd: Channel servicechecks registered successfully
+[1506438344] nerd: Channel opathchecks registered successfully
+[1506438344] nerd: Fully initialized and ready to rock!
+[1506438344] wproc: Successfully registered manager as @wproc with query handler
+[1506438344] wproc: Registry request: name=Core Worker 7350;pid=7350
+[1506438344] wproc: Registry request: name=Core Worker 7351;pid=7351
+[1506438344] wproc: Registry request: name=Core Worker 7352;pid=7352
+[1506438344] wproc: Registry request: name=Core Worker 7353;pid=7353
+[1506438344] Successfully launched command file worker with pid 7354
+[1506438348] wproc: OCHP job 0 from worker Core Worker 7352 is a non-check helper but exited with return code 2
+[1506438348] wproc:   host=dev-nginx; service=(none); contact=(none)
+[1506438348] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438348] wproc:   stdout line 01: Connection refused by host
+[1506438348] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438349] wproc: OCSP job 1 from worker Core Worker 7350 is a non-check helper but exited with return code 2
+[1506438349] wproc:   host=localhost; service=HTTP; contact=(none)
+[1506438349] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438349] wproc:   stdout line 01: Connection refused by host
+[1506438349] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438349] wproc: OCHP job 1 from worker Core Worker 7351 is a non-check helper but exited with return code 2
+[1506438349] wproc:   host=dev-database; service=(none); contact=(none)
+[1506438349] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438349] wproc:   stdout line 01: Connection refused by host
+[1506438349] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438351] wproc: OCSP job 1 from worker Core Worker 7353 is a non-check helper but exited with return code 2
+[1506438351] wproc:   host=dev-services; service=Current Load; contact=(none)
+[1506438351] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438351] wproc:   stdout line 01: Connection refused by host
+[1506438351] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438353] wproc: OCSP job 2 from worker Core Worker 7351 is a non-check helper but exited with return code 2
+[1506438353] wproc:   host=localhost; service=Root Partition; contact=(none)
+[1506438353] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438353] wproc:   stdout line 01: Connection refused by host
+[1506438353] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438356] wproc: OCSP job 2 from worker Core Worker 7353 is a non-check helper but exited with return code 2
+[1506438356] wproc:   host=localhost; service=Swap Usage; contact=(none)
+[1506438356] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438356] wproc:   stdout line 01: Connection refused by host
+[1506438356] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438357] wproc: OCSP job 3 from worker Core Worker 7351 is a non-check helper but exited with return code 2
+[1506438357] wproc:   host=localhost; service=SSH; contact=(none)
+[1506438357] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438357] wproc:   stdout line 01: Connection refused by host
+[1506438357] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438360] wproc: OCSP job 4 from worker Core Worker 7350 is a non-check helper but exited with return code 2
+[1506438360] wproc:   host=localhost; service=Total Processes; contact=(none)
+[1506438360] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438360] wproc:   stdout line 01: Connection refused by host
+[1506438360] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438364] wproc: OCHP job 4 from worker Core Worker 7352 is a non-check helper but exited with return code 2
+[1506438364] wproc:   host=dev-services; service=(none); contact=(none)
+[1506438364] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438364] wproc:   stdout line 01: Connection refused by host
+[1506438364] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438367] wproc: OCSP job 5 from worker Core Worker 7351 is a non-check helper but exited with return code 2
+[1506438367] wproc:   host=localhost; service=Current Users; contact=(none)
+[1506438367] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438367] wproc:   stdout line 01: Connection refused by host
+[1506438367] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438367] wproc: OCHP job 5 from worker Core Worker 7352 is a non-check helper but exited with return code 2
+[1506438367] wproc:   host=dev-bastion; service=(none); contact=(none)
+[1506438367] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438367] wproc:   stdout line 01: Connection refused by host
+[1506438367] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438370] wproc: OCSP job 6 from worker Core Worker 7350 is a non-check helper but exited with return code 2
+[1506438370] wproc:   host=localhost; service=Current Load; contact=(none)
+[1506438370] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438370] wproc:   stdout line 01: Connection refused by host
+[1506438370] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438371] wproc: OCSP job 6 from worker Core Worker 7351 is a non-check helper but exited with return code 2
+[1506438371] wproc:   host=localhost; service=PING; contact=(none)
+[1506438371] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438371] wproc:   stdout line 01: Connection refused by host
+[1506438371] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438378] wproc: OCSP job 6 from worker Core Worker 7353 is a non-check helper but exited with return code 2
+[1506438378] wproc:   host=dev-bastion; service=Current Load; contact=(none)
+[1506438378] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438378] wproc:   stdout line 01: Connection refused by host
+[1506438378] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438380] wproc: OCSP job 7 from worker Core Worker 7351 is a non-check helper but exited with return code 2
+[1506438380] wproc:   host=dev-nginx; service=Current Users; contact=(none)
+[1506438380] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438380] wproc:   stdout line 01: Connection refused by host
+[1506438380] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438382] wproc: OCSP job 7 from worker Core Worker 7353 is a non-check helper but exited with return code 2
+[1506438382] wproc:   host=dev-database; service=Current Load; contact=(none)
+[1506438382] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438382] wproc:   stdout line 01: Connection refused by host
+[1506438382] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438387] wproc: OCSP job 8 from worker Core Worker 7351 is a non-check helper but exited with return code 2
+[1506438387] wproc:   host=dev-services; service=Current Users; contact=(none)
+[1506438387] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438387] wproc:   stdout line 01: Connection refused by host
+[1506438387] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438395] SERVICE ALERT: dev-bastion;SSH;OK;HARD;4;SSH OK - OpenSSH_6.6.1 (protocol 2.0)
+[1506438395] GLOBAL SERVICE EVENT HANDLER: dev-bastion;SSH;OK;HARD;4;submit_service_check
+[1506438395] wproc: GLOBAL SERVICE EVENTHANDLER job 8 from worker Core Worker 7353 is a non-check helper but exited with return code 2
+[1506438395] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438395] wproc:   stdout line 01: Connection refused by host
+[1506438395] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438395] wproc: OCSP job 9 from worker Core Worker 7350 is a non-check helper but exited with return code 2
+[1506438395] wproc:   host=dev-bastion; service=SSH; contact=(none)
+[1506438395] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438395] wproc:   stdout line 01: Connection refused by host
+[1506438395] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438398] wproc: OCSP job 9 from worker Core Worker 7352 is a non-check helper but exited with return code 2
+[1506438398] wproc:   host=dev-services; service=Total Processes; contact=(none)
+[1506438398] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438398] wproc:   stdout line 01: Connection refused by host
+[1506438398] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438409] wproc: OCSP job 10 from worker Core Worker 7351 is a non-check helper but exited with return code 2
+[1506438409] wproc:   host=localhost; service=HTTP; contact=(none)
+[1506438409] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438409] wproc:   stdout line 01: Connection refused by host
+[1506438409] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438410] wproc: OCSP job 11 from worker Core Worker 7350 is a non-check helper but exited with return code 2
+[1506438410] wproc:   host=dev-database; service=Total Processes; contact=(none)
+[1506438410] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438410] wproc:   stdout line 01: Connection refused by host
+[1506438410] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438412] wproc: OCSP job 11 from worker Core Worker 7352 is a non-check helper but exited with return code 2
+[1506438412] wproc:   host=dev-nginx; service=Current Load; contact=(none)
+[1506438412] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438412] wproc:   stdout line 01: Connection refused by host
+[1506438412] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438412] wproc: OCHP job 11 from worker Core Worker 7353 is a non-check helper but exited with return code 2
+[1506438412] wproc:   host=dev-nginx; service=(none); contact=(none)
+[1506438412] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438412] wproc:   stdout line 01: Connection refused by host
+[1506438412] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438413] wproc: OCSP job 12 from worker Core Worker 7351 is a non-check helper but exited with return code 2
+[1506438413] wproc:   host=localhost; service=Root Partition; contact=(none)
+[1506438413] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438413] wproc:   stdout line 01: Connection refused by host
+[1506438413] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438413] wproc: OCHP job 12 from worker Core Worker 7352 is a non-check helper but exited with return code 2
+[1506438413] wproc:   host=dev-database; service=(none); contact=(none)
+[1506438413] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438413] wproc:   stdout line 01: Connection refused by host
+[1506438413] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438416] wproc: OCSP job 13 from worker Core Worker 7350 is a non-check helper but exited with return code 2
+[1506438416] wproc:   host=localhost; service=Swap Usage; contact=(none)
+[1506438416] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438416] wproc:   stdout line 01: Connection refused by host
+[1506438416] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438417] wproc: OCSP job 13 from worker Core Worker 7353 is a non-check helper but exited with return code 2
+[1506438417] wproc:   host=dev-nginx; service=HTTP; contact=(none)
+[1506438417] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438417] wproc:   stdout line 01: Connection refused by host
+[1506438417] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438417] wproc: OCSP job 14 from worker Core Worker 7350 is a non-check helper but exited with return code 2
+[1506438417] wproc:   host=localhost; service=SSH; contact=(none)
+[1506438417] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438417] wproc:   stdout line 01: Connection refused by host
+[1506438417] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438420] wproc: OCSP job 14 from worker Core Worker 7352 is a non-check helper but exited with return code 2
+[1506438420] wproc:   host=localhost; service=Total Processes; contact=(none)
+[1506438420] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438420] wproc:   stdout line 01: Connection refused by host
+[1506438420] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438427] wproc: OCSP job 15 from worker Core Worker 7351 is a non-check helper but exited with return code 2
+[1506438427] wproc:   host=localhost; service=Current Users; contact=(none)
+[1506438427] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438427] wproc:   stdout line 01: Connection refused by host
+[1506438427] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438428] wproc: OCSP job 16 from worker Core Worker 7351 is a non-check helper but exited with return code 2
+[1506438428] wproc:   host=dev-bastion; service=Current Users; contact=(none)
+[1506438428] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438428] wproc:   stdout line 01: Connection refused by host
+[1506438428] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438428] wproc: OCHP job 16 from worker Core Worker 7352 is a non-check helper but exited with return code 2
+[1506438428] wproc:   host=dev-services; service=(none); contact=(none)
+[1506438428] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438428] wproc:   stdout line 01: Connection refused by host
+[1506438428] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438430] wproc: OCSP job 17 from worker Core Worker 7350 is a non-check helper but exited with return code 2
+[1506438430] wproc:   host=localhost; service=Current Load; contact=(none)
+[1506438430] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438430] wproc:   stdout line 01: Connection refused by host
+[1506438430] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438431] wproc: OCHP job 17 from worker Core Worker 7351 is a non-check helper but exited with return code 2
+[1506438431] wproc:   host=dev-bastion; service=(none); contact=(none)
+[1506438431] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438431] wproc:   stdout line 01: Connection refused by host
+[1506438431] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438431] wproc: OCSP job 17 from worker Core Worker 7352 is a non-check helper but exited with return code 2
+[1506438431] wproc:   host=localhost; service=PING; contact=(none)
+[1506438431] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438431] wproc:   stdout line 01: Connection refused by host
+[1506438431] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438451] wproc: OCSP job 18 from worker Core Worker 7350 is a non-check helper but exited with return code 2
+[1506438451] wproc:   host=dev-database; service=PING; contact=(none)
+[1506438451] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438451] wproc:   stdout line 01: Connection refused by host
+[1506438451] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438459] wproc: OCSP job 18 from worker Core Worker 7352 is a non-check helper but exited with return code 2
+[1506438459] wproc:   host=dev-nginx; service=PING; contact=(none)
+[1506438459] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438459] wproc:   stdout line 01: Connection refused by host
+[1506438459] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438466] wproc: OCSP job 19 from worker Core Worker 7350 is a non-check helper but exited with return code 2
+[1506438466] wproc:   host=dev-services; service=PING; contact=(none)
+[1506438466] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438466] wproc:   stdout line 01: Connection refused by host
+[1506438466] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438467] wproc: OCSP job 19 from worker Core Worker 7352 is a non-check helper but exited with return code 2
+[1506438467] wproc:   host=dev-nginx; service=Total Processes; contact=(none)
+[1506438467] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438467] wproc:   stdout line 01: Connection refused by host
+[1506438467] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438469] wproc: OCSP job 20 from worker Core Worker 7350 is a non-check helper but exited with return code 2
+[1506438469] wproc:   host=localhost; service=HTTP; contact=(none)
+[1506438469] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438469] wproc:   stdout line 01: Connection refused by host
+[1506438469] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438473] wproc: OCSP job 20 from worker Core Worker 7353 is a non-check helper but exited with return code 2
+[1506438473] wproc:   host=localhost; service=Root Partition; contact=(none)
+[1506438473] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438473] wproc:   stdout line 01: Connection refused by host
+[1506438473] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438476] wproc: OCSP job 21 from worker Core Worker 7352 is a non-check helper but exited with return code 2
+[1506438476] wproc:   host=localhost; service=Swap Usage; contact=(none)
+[1506438476] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438476] wproc:   stdout line 01: Connection refused by host
+[1506438476] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438476] wproc: OCHP job 21 from worker Core Worker 7353 is a non-check helper but exited with return code 2
+[1506438476] wproc:   host=dev-nginx; service=(none); contact=(none)
+[1506438476] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438476] wproc:   stdout line 01: Connection refused by host
+[1506438476] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438477] wproc: OCSP job 22 from worker Core Worker 7351 is a non-check helper but exited with return code 2
+[1506438477] wproc:   host=dev-bastion; service=Root Partition; contact=(none)
+[1506438477] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438477] wproc:   stdout line 01: Connection refused by host
+[1506438477] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438477] wproc: OCSP job 22 from worker Core Worker 7353 is a non-check helper but exited with return code 2
+[1506438477] wproc:   host=localhost; service=SSH; contact=(none)
+[1506438477] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438477] wproc:   stdout line 01: Connection refused by host
+[1506438477] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438477] wproc: OCHP job 23 from worker Core Worker 7350 is a non-check helper but exited with return code 2
+[1506438477] wproc:   host=dev-database; service=(none); contact=(none)
+[1506438477] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438477] wproc:   stdout line 01: Connection refused by host
+[1506438477] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438480] wproc: OCSP job 23 from worker Core Worker 7352 is a non-check helper but exited with return code 2
+[1506438480] wproc:   host=localhost; service=Total Processes; contact=(none)
+[1506438480] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438480] wproc:   stdout line 01: Connection refused by host
+[1506438480] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438485] wproc: OCSP job 24 from worker Core Worker 7351 is a non-check helper but exited with return code 2
+[1506438485] wproc:   host=dev-database; service=Root Partition; contact=(none)
+[1506438485] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438485] wproc:   stdout line 01: Connection refused by host
+[1506438485] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438487] wproc: OCSP job 24 from worker Core Worker 7353 is a non-check helper but exited with return code 2
+[1506438487] wproc:   host=localhost; service=Current Users; contact=(none)
+[1506438487] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438487] wproc:   stdout line 01: Connection refused by host
+[1506438487] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438489] wproc: OCSP job 25 from worker Core Worker 7352 is a non-check helper but exited with return code 2
+[1506438489] wproc:   host=dev-bastion; service=PING; contact=(none)
+[1506438489] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438489] wproc:   stdout line 01: Connection refused by host
+[1506438489] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438490] wproc: OCSP job 26 from worker Core Worker 7350 is a non-check helper but exited with return code 2
+[1506438490] wproc:   host=localhost; service=Current Load; contact=(none)
+[1506438490] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438490] wproc:   stdout line 01: Connection refused by host
+[1506438490] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438491] wproc: OCSP job 26 from worker Core Worker 7352 is a non-check helper but exited with return code 2
+[1506438491] wproc:   host=localhost; service=PING; contact=(none)
+[1506438491] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438491] wproc:   stdout line 01: Connection refused by host
+[1506438491] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438492] wproc: OCSP job 27 from worker Core Worker 7350 is a non-check helper but exited with return code 2
+[1506438492] wproc:   host=dev-nginx; service=Root Partition; contact=(none)
+[1506438492] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438492] wproc:   stdout line 01: Connection refused by host
+[1506438492] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438492] wproc: OCHP job 27 from worker Core Worker 7351 is a non-check helper but exited with return code 2
+[1506438492] wproc:   host=dev-services; service=(none); contact=(none)
+[1506438492] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438492] wproc:   stdout line 01: Connection refused by host
+[1506438492] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438495] wproc: OCHP job 27 from worker Core Worker 7352 is a non-check helper but exited with return code 2
+[1506438495] wproc:   host=dev-bastion; service=(none); contact=(none)
+[1506438495] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438495] wproc:   stdout line 01: Connection refused by host
+[1506438495] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438500] wproc: OCSP job 28 from worker Core Worker 7351 is a non-check helper but exited with return code 2
+[1506438500] wproc:   host=dev-database; service=Current Users; contact=(none)
+[1506438500] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438500] wproc:   stdout line 01: Connection refused by host
+[1506438500] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438500] wproc: OCSP job 28 from worker Core Worker 7352 is a non-check helper but exited with return code 2
+[1506438500] wproc:   host=dev-services; service=Root Partition; contact=(none)
+[1506438500] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438500] wproc:   stdout line 01: Connection refused by host
+[1506438500] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438522] wproc: OCSP job 29 from worker Core Worker 7350 is a non-check helper but exited with return code 2
+[1506438522] wproc:   host=dev-database; service=SSH; contact=(none)
+[1506438522] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438522] wproc:   stdout line 01: Connection refused by host
+[1506438522] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438527] wproc: OCHP job 29 from worker Core Worker 7352 is a non-check helper but exited with return code 2
+[1506438527] wproc:   host=localhost; service=(none); contact=(none)
+[1506438527] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438527] wproc:   stdout line 01: Connection refused by host
+[1506438527] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438529] wproc: OCSP job 30 from worker Core Worker 7350 is a non-check helper but exited with return code 2
+[1506438529] wproc:   host=localhost; service=HTTP; contact=(none)
+[1506438529] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438529] wproc:   stdout line 01: Connection refused by host
+[1506438529] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438530] wproc: OCSP job 30 from worker Core Worker 7352 is a non-check helper but exited with return code 2
+[1506438530] wproc:   host=dev-nginx; service=SSH; contact=(none)
+[1506438530] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438530] wproc:   stdout line 01: Connection refused by host
+[1506438530] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438533] wproc: OCSP job 31 from worker Core Worker 7350 is a non-check helper but exited with return code 2
+[1506438533] wproc:   host=localhost; service=Root Partition; contact=(none)
+[1506438533] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438533] wproc:   stdout line 01: Connection refused by host
+[1506438533] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438534] Caught SIGTERM, shutting down...
+[1506438534] Successfully shutdown... (PID=7348)
+[1506438534] Event broker module 'NERD' deinitialized successfully.
+[1506438535] Nagios 4.3.4 starting... (PID=7800)
+[1506438535] Local time is Tue Sep 26 23:08:55 CST 2017
+[1506438535] LOG VERSION: 2.0
+[1506438535] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506438535] qh: core query handler registered
+[1506438535] nerd: Channel hostchecks registered successfully
+[1506438535] nerd: Channel servicechecks registered successfully
+[1506438535] nerd: Channel opathchecks registered successfully
+[1506438535] nerd: Fully initialized and ready to rock!
+[1506438535] wproc: Successfully registered manager as @wproc with query handler
+[1506438535] wproc: Registry request: name=Core Worker 7805;pid=7805
+[1506438535] wproc: Registry request: name=Core Worker 7802;pid=7802
+[1506438535] wproc: Registry request: name=Core Worker 7803;pid=7803
+[1506438535] wproc: Registry request: name=Core Worker 7804;pid=7804
+[1506438535] Successfully launched command file worker with pid 7806
+[1506438537] wproc: OCSP job 1 from worker Core Worker 7805 is a non-check helper but exited with return code 2
+[1506438537] wproc:   host=localhost; service=SSH; contact=(none)
+[1506438537] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438537] wproc:   stdout line 01: Connection refused by host
+[1506438537] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438537] wproc: OCSP job 1 from worker Core Worker 7802 is a non-check helper but exited with return code 2
+[1506438537] wproc:   host=dev-services; service=SSH; contact=(none)
+[1506438537] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438537] wproc:   stdout line 01: Connection refused by host
+[1506438537] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438540] wproc: OCSP job 1 from worker Core Worker 7804 is a non-check helper but exited with return code 2
+[1506438540] wproc:   host=localhost; service=Total Processes; contact=(none)
+[1506438540] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438540] wproc:   stdout line 01: Connection refused by host
+[1506438540] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438540] wproc: OCHP job 2 from worker Core Worker 7805 is a non-check helper but exited with return code 2
+[1506438540] wproc:   host=dev-nginx; service=(none); contact=(none)
+[1506438540] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438540] wproc:   stdout line 01: Connection refused by host
+[1506438540] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438541] wproc: OCHP job 2 from worker Core Worker 7802 is a non-check helper but exited with return code 2
+[1506438541] wproc:   host=dev-database; service=(none); contact=(none)
+[1506438541] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438541] wproc:   stdout line 01: Connection refused by host
+[1506438541] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438547] wproc: OCSP job 3 from worker Core Worker 7805 is a non-check helper but exited with return code 2
+[1506438547] wproc:   host=localhost; service=Current Users; contact=(none)
+[1506438547] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438547] wproc:   stdout line 01: Connection refused by host
+[1506438547] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438550] wproc: OCSP job 3 from worker Core Worker 7803 is a non-check helper but exited with return code 2
+[1506438550] wproc:   host=localhost; service=Current Load; contact=(none)
+[1506438550] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438550] wproc:   stdout line 01: Connection refused by host
+[1506438550] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438551] wproc: OCSP job 3 from worker Core Worker 7804 is a non-check helper but exited with return code 2
+[1506438551] wproc:   host=localhost; service=PING; contact=(none)
+[1506438551] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438551] wproc:   stdout line 01: Connection refused by host
+[1506438551] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438556] wproc: OCHP job 4 from worker Core Worker 7803 is a non-check helper but exited with return code 2
+[1506438556] wproc:   host=dev-services; service=(none); contact=(none)
+[1506438556] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438556] wproc:   stdout line 01: Connection refused by host
+[1506438556] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438559] wproc: OCHP job 4 from worker Core Worker 7804 is a non-check helper but exited with return code 2
+[1506438559] wproc:   host=dev-bastion; service=(none); contact=(none)
+[1506438559] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438559] wproc:   stdout line 01: Connection refused by host
+[1506438559] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438582] wproc: OCSP job 5 from worker Core Worker 7802 is a non-check helper but exited with return code 2
+[1506438582] wproc:   host=dev-bastion; service=HTTP; contact=(none)
+[1506438582] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438582] wproc:   stdout line 01: Connection refused by host
+[1506438582] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438589] wproc: OCSP job 5 from worker Core Worker 7804 is a non-check helper but exited with return code 2
+[1506438589] wproc:   host=localhost; service=HTTP; contact=(none)
+[1506438589] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438589] wproc:   stdout line 01: Connection refused by host
+[1506438589] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438590] wproc: OCSP job 6 from worker Core Worker 7803 is a non-check helper but exited with return code 2
+[1506438590] wproc:   host=dev-bastion; service=Total Processes; contact=(none)
+[1506438590] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438590] wproc:   stdout line 01: Connection refused by host
+[1506438590] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438590] wproc: OCSP job 6 from worker Core Worker 7804 is a non-check helper but exited with return code 2
+[1506438590] wproc:   host=dev-database; service=HTTP; contact=(none)
+[1506438590] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438590] wproc:   stdout line 01: Connection refused by host
+[1506438590] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438593] wproc: OCSP job 7 from worker Core Worker 7802 is a non-check helper but exited with return code 2
+[1506438593] wproc:   host=localhost; service=Root Partition; contact=(none)
+[1506438593] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438593] wproc:   stdout line 01: Connection refused by host
+[1506438593] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438597] wproc: OCSP job 7 from worker Core Worker 7804 is a non-check helper but exited with return code 2
+[1506438597] wproc:   host=localhost; service=SSH; contact=(none)
+[1506438597] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438597] wproc:   stdout line 01: Connection refused by host
+[1506438597] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438600] wproc: OCSP job 8 from worker Core Worker 7803 is a non-check helper but exited with return code 2
+[1506438600] wproc:   host=localhost; service=Total Processes; contact=(none)
+[1506438600] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438600] wproc:   stdout line 01: Connection refused by host
+[1506438600] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438604] wproc: OCHP job 9 from worker Core Worker 7805 is a non-check helper but exited with return code 2
+[1506438604] wproc:   host=dev-nginx; service=(none); contact=(none)
+[1506438604] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438604] wproc:   stdout line 01: Connection refused by host
+[1506438604] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438605] wproc: OCSP job 9 from worker Core Worker 7803 is a non-check helper but exited with return code 2
+[1506438605] wproc:   host=dev-services; service=HTTP; contact=(none)
+[1506438605] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438605] wproc:   stdout line 01: Connection refused by host
+[1506438605] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438605] wproc: OCHP job 9 from worker Core Worker 7804 is a non-check helper but exited with return code 2
+[1506438605] wproc:   host=dev-database; service=(none); contact=(none)
+[1506438605] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438605] wproc:   stdout line 01: Connection refused by host
+[1506438605] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438607] Caught SIGTERM, shutting down...
+[1506438607] Successfully shutdown... (PID=7800)
+[1506438607] Event broker module 'NERD' deinitialized successfully.
+[1506438608] Nagios 4.3.4 starting... (PID=7996)
+[1506438608] Local time is Tue Sep 26 23:10:08 CST 2017
+[1506438608] LOG VERSION: 2.0
+[1506438608] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506438608] qh: core query handler registered
+[1506438608] nerd: Channel hostchecks registered successfully
+[1506438608] nerd: Channel servicechecks registered successfully
+[1506438608] nerd: Channel opathchecks registered successfully
+[1506438608] nerd: Fully initialized and ready to rock!
+[1506438608] wproc: Successfully registered manager as @wproc with query handler
+[1506438608] wproc: Registry request: name=Core Worker 8001;pid=8001
+[1506438608] wproc: Registry request: name=Core Worker 7998;pid=7998
+[1506438608] wproc: Registry request: name=Core Worker 7999;pid=7999
+[1506438608] wproc: Registry request: name=Core Worker 8000;pid=8000
+[1506438608] Successfully launched command file worker with pid 8002
+[1506438610] wproc: OCSP job 0 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438610] wproc:   host=localhost; service=Current Load; contact=(none)
+[1506438610] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438610] wproc:   stdout line 01: Connection refused by host
+[1506438610] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438620] wproc: OCHP job 1 from worker Core Worker 8001 is a non-check helper but exited with return code 2
+[1506438620] wproc:   host=dev-services; service=(none); contact=(none)
+[1506438620] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438620] wproc:   stdout line 01: Connection refused by host
+[1506438620] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438623] wproc: OCHP job 1 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438623] wproc:   host=dev-bastion; service=(none); contact=(none)
+[1506438623] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438623] wproc:   stdout line 01: Connection refused by host
+[1506438623] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438644] wproc: OCSP job 1 from worker Core Worker 8000 is a non-check helper but exited with return code 2
+[1506438644] wproc:   host=localhost; service=Current Users; contact=(none)
+[1506438644] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438644] wproc:   stdout line 01: Connection refused by host
+[1506438644] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438649] wproc: OCSP job 2 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438649] wproc:   host=localhost; service=HTTP; contact=(none)
+[1506438649] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438649] wproc:   stdout line 01: Connection refused by host
+[1506438649] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438651] wproc: OCSP job 2 from worker Core Worker 8000 is a non-check helper but exited with return code 2
+[1506438651] wproc:   host=dev-services; service=Current Load; contact=(none)
+[1506438651] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438651] wproc:   stdout line 01: Connection refused by host
+[1506438651] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438653] wproc: OCSP job 3 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438653] wproc:   host=localhost; service=Root Partition; contact=(none)
+[1506438653] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438653] wproc:   stdout line 01: Connection refused by host
+[1506438653] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438657] wproc: OCSP job 3 from worker Core Worker 8000 is a non-check helper but exited with return code 2
+[1506438657] wproc:   host=localhost; service=SSH; contact=(none)
+[1506438657] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438657] wproc:   stdout line 01: Connection refused by host
+[1506438657] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438660] wproc: OCSP job 4 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438660] wproc:   host=localhost; service=Total Processes; contact=(none)
+[1506438660] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438660] wproc:   stdout line 01: Connection refused by host
+[1506438660] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438667] wproc: OCSP job 5 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438667] wproc:   host=localhost; service=PING; contact=(none)
+[1506438667] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438667] wproc:   stdout line 01: Connection refused by host
+[1506438667] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438668] wproc: OCHP job 5 from worker Core Worker 7999 is a non-check helper but exited with return code 2
+[1506438668] wproc:   host=dev-nginx; service=(none); contact=(none)
+[1506438668] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438668] wproc:   stdout line 01: Connection refused by host
+[1506438668] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438669] wproc: OCHP job 5 from worker Core Worker 8000 is a non-check helper but exited with return code 2
+[1506438669] wproc:   host=dev-database; service=(none); contact=(none)
+[1506438669] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438669] wproc:   stdout line 01: Connection refused by host
+[1506438669] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438670] wproc: OCSP job 6 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438670] wproc:   host=localhost; service=Current Load; contact=(none)
+[1506438670] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438670] wproc:   stdout line 01: Connection refused by host
+[1506438670] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438678] wproc: OCSP job 6 from worker Core Worker 8000 is a non-check helper but exited with return code 2
+[1506438678] wproc:   host=dev-bastion; service=Current Load; contact=(none)
+[1506438678] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438678] wproc:   stdout line 01: Connection refused by host
+[1506438678] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438680] wproc: OCSP job 7 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438680] wproc:   host=dev-nginx; service=Current Users; contact=(none)
+[1506438680] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438680] wproc:   stdout line 01: Connection refused by host
+[1506438680] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438682] wproc: OCSP job 8 from worker Core Worker 8001 is a non-check helper but exited with return code 2
+[1506438682] wproc:   host=dev-database; service=Current Load; contact=(none)
+[1506438682] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438682] wproc:   stdout line 01: Connection refused by host
+[1506438682] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438684] wproc: OCHP job 8 from worker Core Worker 7999 is a non-check helper but exited with return code 2
+[1506438684] wproc:   host=dev-services; service=(none); contact=(none)
+[1506438684] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438684] wproc:   stdout line 01: Connection refused by host
+[1506438684] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438687] wproc: OCSP job 9 from worker Core Worker 8001 is a non-check helper but exited with return code 2
+[1506438687] wproc:   host=dev-services; service=Current Users; contact=(none)
+[1506438687] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438687] wproc:   stdout line 01: Connection refused by host
+[1506438687] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438687] wproc: OCHP job 9 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438687] wproc:   host=dev-bastion; service=(none); contact=(none)
+[1506438687] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438687] wproc:   stdout line 01: Connection refused by host
+[1506438687] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438695] wproc: OCSP job 9 from worker Core Worker 8000 is a non-check helper but exited with return code 2
+[1506438695] wproc:   host=dev-bastion; service=SSH; contact=(none)
+[1506438695] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438695] wproc:   stdout line 01: Connection refused by host
+[1506438695] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438698] wproc: OCSP job 10 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438698] wproc:   host=dev-services; service=Total Processes; contact=(none)
+[1506438698] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438698] wproc:   stdout line 01: Connection refused by host
+[1506438698] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438704] wproc: OCSP job 10 from worker Core Worker 8000 is a non-check helper but exited with return code 2
+[1506438704] wproc:   host=localhost; service=Current Users; contact=(none)
+[1506438704] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438704] wproc:   stdout line 01: Connection refused by host
+[1506438704] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438709] wproc: OCSP job 11 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438709] wproc:   host=localhost; service=HTTP; contact=(none)
+[1506438709] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438709] wproc:   stdout line 01: Connection refused by host
+[1506438709] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438710] wproc: OCSP job 11 from worker Core Worker 8000 is a non-check helper but exited with return code 2
+[1506438710] wproc:   host=dev-database; service=Total Processes; contact=(none)
+[1506438710] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438710] wproc:   stdout line 01: Connection refused by host
+[1506438710] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438712] wproc: OCSP job 12 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438712] wproc:   host=dev-nginx; service=Current Load; contact=(none)
+[1506438712] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438712] wproc:   stdout line 01: Connection refused by host
+[1506438712] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438713] wproc: OCSP job 12 from worker Core Worker 8000 is a non-check helper but exited with return code 2
+[1506438713] wproc:   host=localhost; service=Root Partition; contact=(none)
+[1506438713] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438713] wproc:   stdout line 01: Connection refused by host
+[1506438713] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438717] wproc: OCSP job 13 from worker Core Worker 7999 is a non-check helper but exited with return code 2
+[1506438717] wproc:   host=dev-nginx; service=HTTP; contact=(none)
+[1506438717] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438717] wproc:   stdout line 01: Connection refused by host
+[1506438717] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438717] wproc: OCSP job 13 from worker Core Worker 8000 is a non-check helper but exited with return code 2
+[1506438717] wproc:   host=localhost; service=SSH; contact=(none)
+[1506438717] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438717] wproc:   stdout line 01: Connection refused by host
+[1506438717] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438720] wproc: OCSP job 14 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438720] wproc:   host=localhost; service=Total Processes; contact=(none)
+[1506438720] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438720] wproc:   stdout line 01: Connection refused by host
+[1506438720] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438727] wproc: OCSP job 14 from worker Core Worker 8000 is a non-check helper but exited with return code 2
+[1506438727] wproc:   host=localhost; service=PING; contact=(none)
+[1506438727] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438727] wproc:   stdout line 01: Connection refused by host
+[1506438727] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438728] wproc: OCSP job 15 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438728] wproc:   host=dev-bastion; service=Current Users; contact=(none)
+[1506438728] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438728] wproc:   stdout line 01: Connection refused by host
+[1506438728] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438730] wproc: OCSP job 16 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438730] wproc:   host=localhost; service=Current Load; contact=(none)
+[1506438730] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438730] wproc:   stdout line 01: Connection refused by host
+[1506438730] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438732] wproc: OCHP job 16 from worker Core Worker 7999 is a non-check helper but exited with return code 2
+[1506438732] wproc:   host=dev-nginx; service=(none); contact=(none)
+[1506438732] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438732] wproc:   stdout line 01: Connection refused by host
+[1506438732] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438733] wproc: OCHP job 16 from worker Core Worker 8000 is a non-check helper but exited with return code 2
+[1506438733] wproc:   host=dev-database; service=(none); contact=(none)
+[1506438733] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438733] wproc:   stdout line 01: Connection refused by host
+[1506438733] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438748] wproc: OCHP job 17 from worker Core Worker 8000 is a non-check helper but exited with return code 2
+[1506438748] wproc:   host=dev-services; service=(none); contact=(none)
+[1506438748] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438748] wproc:   stdout line 01: Connection refused by host
+[1506438748] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438751] wproc: OCHP job 18 from worker Core Worker 8001 is a non-check helper but exited with return code 2
+[1506438751] wproc:   host=dev-bastion; service=(none); contact=(none)
+[1506438751] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438751] wproc:   stdout line 01: Connection refused by host
+[1506438751] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438751] wproc: OCSP job 18 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438751] wproc:   host=dev-database; service=PING; contact=(none)
+[1506438751] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438751] wproc:   stdout line 01: Connection refused by host
+[1506438751] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438759] wproc: OCSP job 18 from worker Core Worker 8000 is a non-check helper but exited with return code 2
+[1506438759] wproc:   host=dev-nginx; service=PING; contact=(none)
+[1506438759] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438759] wproc:   stdout line 01: Connection refused by host
+[1506438759] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438764] wproc: OCSP job 19 from worker Core Worker 7999 is a non-check helper but exited with return code 2
+[1506438764] wproc:   host=localhost; service=Current Users; contact=(none)
+[1506438764] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438764] wproc:   stdout line 01: Connection refused by host
+[1506438764] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438766] wproc: OCSP job 19 from worker Core Worker 8000 is a non-check helper but exited with return code 2
+[1506438766] wproc:   host=dev-services; service=PING; contact=(none)
+[1506438766] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438766] wproc:   stdout line 01: Connection refused by host
+[1506438766] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438767] wproc: OCSP job 20 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438767] wproc:   host=dev-nginx; service=Total Processes; contact=(none)
+[1506438767] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438767] wproc:   stdout line 01: Connection refused by host
+[1506438767] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438769] wproc: OCSP job 20 from worker Core Worker 8000 is a non-check helper but exited with return code 2
+[1506438769] wproc:   host=localhost; service=HTTP; contact=(none)
+[1506438769] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438769] wproc:   stdout line 01: Connection refused by host
+[1506438769] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438773] wproc: OCSP job 21 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438773] wproc:   host=localhost; service=Root Partition; contact=(none)
+[1506438773] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438773] wproc:   stdout line 01: Connection refused by host
+[1506438773] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438777] wproc: OCSP job 21 from worker Core Worker 8000 is a non-check helper but exited with return code 2
+[1506438777] wproc:   host=dev-bastion; service=Root Partition; contact=(none)
+[1506438777] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438777] wproc:   stdout line 01: Connection refused by host
+[1506438777] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438777] wproc: OCSP job 22 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438777] wproc:   host=localhost; service=SSH; contact=(none)
+[1506438777] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438777] wproc:   stdout line 01: Connection refused by host
+[1506438777] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438780] wproc: OCSP job 22 from worker Core Worker 8000 is a non-check helper but exited with return code 2
+[1506438780] wproc:   host=localhost; service=Total Processes; contact=(none)
+[1506438780] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438780] wproc:   stdout line 01: Connection refused by host
+[1506438780] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438785] wproc: OCSP job 23 from worker Core Worker 8000 is a non-check helper but exited with return code 2
+[1506438785] wproc:   host=dev-database; service=Root Partition; contact=(none)
+[1506438785] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438785] wproc:   stdout line 01: Connection refused by host
+[1506438785] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438787] wproc: OCSP job 24 from worker Core Worker 8001 is a non-check helper but exited with return code 2
+[1506438787] wproc:   host=localhost; service=PING; contact=(none)
+[1506438787] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438787] wproc:   stdout line 01: Connection refused by host
+[1506438787] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438789] wproc: OCSP job 24 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438789] wproc:   host=dev-bastion; service=PING; contact=(none)
+[1506438789] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438789] wproc:   stdout line 01: Connection refused by host
+[1506438789] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438790] wproc: OCSP job 24 from worker Core Worker 8000 is a non-check helper but exited with return code 2
+[1506438790] wproc:   host=localhost; service=Current Load; contact=(none)
+[1506438790] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438790] wproc:   stdout line 01: Connection refused by host
+[1506438790] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438792] wproc: OCSP job 25 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438792] wproc:   host=dev-nginx; service=Root Partition; contact=(none)
+[1506438792] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438792] wproc:   stdout line 01: Connection refused by host
+[1506438792] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438796] wproc: OCHP job 26 from worker Core Worker 8001 is a non-check helper but exited with return code 2
+[1506438796] wproc:   host=dev-nginx; service=(none); contact=(none)
+[1506438796] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438796] wproc:   stdout line 01: Connection refused by host
+[1506438796] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438797] wproc: OCHP job 26 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438797] wproc:   host=dev-database; service=(none); contact=(none)
+[1506438797] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438797] wproc:   stdout line 01: Connection refused by host
+[1506438797] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438800] wproc: OCSP job 27 from worker Core Worker 8001 is a non-check helper but exited with return code 2
+[1506438800] wproc:   host=dev-database; service=Current Users; contact=(none)
+[1506438800] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438800] wproc:   stdout line 01: Connection refused by host
+[1506438800] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438800] wproc: OCSP job 27 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438800] wproc:   host=dev-services; service=Root Partition; contact=(none)
+[1506438800] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438800] wproc:   stdout line 01: Connection refused by host
+[1506438800] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438812] wproc: OCHP job 28 from worker Core Worker 8001 is a non-check helper but exited with return code 2
+[1506438812] wproc:   host=dev-services; service=(none); contact=(none)
+[1506438812] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438812] wproc:   stdout line 01: Connection refused by host
+[1506438812] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438815] wproc: OCHP job 28 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438815] wproc:   host=dev-bastion; service=(none); contact=(none)
+[1506438815] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438815] wproc:   stdout line 01: Connection refused by host
+[1506438815] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438822] wproc: OCSP job 28 from worker Core Worker 8000 is a non-check helper but exited with return code 2
+[1506438822] wproc:   host=dev-database; service=SSH; contact=(none)
+[1506438822] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438822] wproc:   stdout line 01: Connection refused by host
+[1506438822] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438824] wproc: OCSP job 29 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438824] wproc:   host=localhost; service=Current Users; contact=(none)
+[1506438824] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438824] wproc:   stdout line 01: Connection refused by host
+[1506438824] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438829] wproc: OCSP job 30 from worker Core Worker 8001 is a non-check helper but exited with return code 2
+[1506438829] wproc:   host=localhost; service=HTTP; contact=(none)
+[1506438829] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438829] wproc:   stdout line 01: Connection refused by host
+[1506438829] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438830] wproc: OCSP job 30 from worker Core Worker 7999 is a non-check helper but exited with return code 2
+[1506438830] wproc:   host=dev-nginx; service=SSH; contact=(none)
+[1506438830] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438830] wproc:   stdout line 01: Connection refused by host
+[1506438830] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438831] wproc: OCHP job 30 from worker Core Worker 8000 is a non-check helper but exited with return code 2
+[1506438831] wproc:   host=localhost; service=(none); contact=(none)
+[1506438831] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438831] wproc:   stdout line 01: Connection refused by host
+[1506438831] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438833] wproc: OCSP job 31 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438833] wproc:   host=localhost; service=Root Partition; contact=(none)
+[1506438833] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438833] wproc:   stdout line 01: Connection refused by host
+[1506438833] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438837] wproc: OCSP job 31 from worker Core Worker 8000 is a non-check helper but exited with return code 2
+[1506438837] wproc:   host=dev-services; service=SSH; contact=(none)
+[1506438837] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438837] wproc:   stdout line 01: Connection refused by host
+[1506438837] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438837] wproc: OCSP job 32 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438837] wproc:   host=localhost; service=SSH; contact=(none)
+[1506438837] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438837] wproc:   stdout line 01: Connection refused by host
+[1506438837] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438840] wproc: OCSP job 32 from worker Core Worker 8000 is a non-check helper but exited with return code 2
+[1506438840] wproc:   host=localhost; service=Total Processes; contact=(none)
+[1506438840] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438840] wproc:   stdout line 01: Connection refused by host
+[1506438840] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438847] wproc: OCSP job 33 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438847] wproc:   host=localhost; service=PING; contact=(none)
+[1506438847] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438847] wproc:   stdout line 01: Connection refused by host
+[1506438847] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438850] wproc: OCSP job 33 from worker Core Worker 8000 is a non-check helper but exited with return code 2
+[1506438850] wproc:   host=localhost; service=Current Load; contact=(none)
+[1506438850] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438850] wproc:   stdout line 01: Connection refused by host
+[1506438850] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438860] wproc: OCHP job 34 from worker Core Worker 7999 is a non-check helper but exited with return code 2
+[1506438860] wproc:   host=dev-nginx; service=(none); contact=(none)
+[1506438860] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438860] wproc:   stdout line 01: Connection refused by host
+[1506438860] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438861] wproc: OCHP job 34 from worker Core Worker 8000 is a non-check helper but exited with return code 2
+[1506438861] wproc:   host=dev-database; service=(none); contact=(none)
+[1506438861] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438861] wproc:   stdout line 01: Connection refused by host
+[1506438861] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438876] wproc: OCHP job 35 from worker Core Worker 7999 is a non-check helper but exited with return code 2
+[1506438876] wproc:   host=dev-services; service=(none); contact=(none)
+[1506438876] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438876] wproc:   stdout line 01: Connection refused by host
+[1506438876] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438879] wproc: OCHP job 35 from worker Core Worker 8000 is a non-check helper but exited with return code 2
+[1506438879] wproc:   host=dev-bastion; service=(none); contact=(none)
+[1506438879] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438879] wproc:   stdout line 01: Connection refused by host
+[1506438879] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438882] wproc: OCSP job 36 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438882] wproc:   host=dev-bastion; service=HTTP; contact=(none)
+[1506438882] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438882] wproc:   stdout line 01: Connection refused by host
+[1506438882] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438884] wproc: OCSP job 36 from worker Core Worker 8000 is a non-check helper but exited with return code 2
+[1506438884] wproc:   host=localhost; service=Current Users; contact=(none)
+[1506438884] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438884] wproc:   stdout line 01: Connection refused by host
+[1506438884] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438889] wproc: OCSP job 37 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438889] wproc:   host=localhost; service=HTTP; contact=(none)
+[1506438889] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438889] wproc:   stdout line 01: Connection refused by host
+[1506438889] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438890] wproc: OCSP job 38 from worker Core Worker 8001 is a non-check helper but exited with return code 2
+[1506438890] wproc:   host=dev-bastion; service=Total Processes; contact=(none)
+[1506438890] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438890] wproc:   stdout line 01: Connection refused by host
+[1506438890] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438890] wproc: OCSP job 38 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438890] wproc:   host=dev-database; service=HTTP; contact=(none)
+[1506438890] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438890] wproc:   stdout line 01: Connection refused by host
+[1506438890] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438893] wproc: OCSP job 38 from worker Core Worker 8000 is a non-check helper but exited with return code 2
+[1506438893] wproc:   host=localhost; service=Root Partition; contact=(none)
+[1506438893] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438893] wproc:   stdout line 01: Connection refused by host
+[1506438893] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438897] wproc: OCSP job 39 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438897] wproc:   host=localhost; service=SSH; contact=(none)
+[1506438897] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438897] wproc:   stdout line 01: Connection refused by host
+[1506438897] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438900] wproc: OCSP job 39 from worker Core Worker 8000 is a non-check helper but exited with return code 2
+[1506438900] wproc:   host=localhost; service=Total Processes; contact=(none)
+[1506438900] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438900] wproc:   stdout line 01: Connection refused by host
+[1506438900] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438905] wproc: OCSP job 40 from worker Core Worker 7999 is a non-check helper but exited with return code 2
+[1506438905] wproc:   host=dev-services; service=HTTP; contact=(none)
+[1506438905] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438905] wproc:   stdout line 01: Connection refused by host
+[1506438905] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438907] wproc: OCSP job 40 from worker Core Worker 8000 is a non-check helper but exited with return code 2
+[1506438907] wproc:   host=localhost; service=PING; contact=(none)
+[1506438907] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438907] wproc:   stdout line 01: Connection refused by host
+[1506438907] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
+[1506438910] wproc: OCSP job 41 from worker Core Worker 7998 is a non-check helper but exited with return code 2
+[1506438910] wproc:   host=localhost; service=Current Load; contact=(none)
+[1506438910] wproc:   early_timeout=0; exited_ok=1; wait_status=512; error_code=0;
+[1506438910] wproc:   stdout line 01: Connection refused by host
+[1506438910] wproc:   stdout line 02: Error: Could not connect to host uat-bastion on port 5667
